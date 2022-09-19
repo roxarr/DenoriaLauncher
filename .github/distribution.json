@@ -1,0 +1,1796 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Denoria-1.16.5",
+      "name": "Denoria 1.16.5",
+      "description": "Serwer minecraft na modach",
+      "icon": : "https://denoria.pl/tmp/pack.png",
+      "version": "1.0.0",
+      "address": "mc.denoria.pl",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 212574,
+            "MD5": "4afee0135f47547182faa2ea88efebac",
+            "url": "http://denoria/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.39",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "2090bfafdec72f885ddf95300bd96714",
+                "url": "http://denoria/repo/versions/1.16.5-forge-36.2.39/1.16.5-forge-36.2.39.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.39:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2504067,
+                "MD5": "3337e44edf13c5759548623b5866b967",
+                "url": "http://denoria/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.39:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4216473,
+                "MD5": "253bbbe4aa8a7752615ea759fa178c80",
+                "url": "http://denoria/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "8ac1b587325a2ede3a5cbb21e93455a5",
+                "url": "http://denoria/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://denoria/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://denoria/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "http://denoria/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "http://denoria/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "http://denoria/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "http://denoria/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "http://denoria/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://denoria/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://denoria/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://denoria/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://denoria/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://denoria/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://denoria/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://denoria/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://denoria/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://denoria/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://denoria/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://denoria/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://denoria/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://denoria/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://denoria/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://denoria/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://denoria/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://denoria/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://denoria/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://denoria/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://denoria/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.1.0@jar",
+          "name": "3dSkinLayers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380495,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d/download/3456514/file",
+            "MD5": "dba8ab24194f55b0cc4d5d1039ce86e3"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.abnormals_core.core:abnormals_core:3.3.1@jar",
+          "name": "Abnormals Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 975979,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/blueprint/download/3607198/file",
+            "MD5": "0c91b63a7f5863a10c2f1dfd7bf604af"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.12.1@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18135643,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/download/3467280/file",
+            "MD5": "5f3cbbbdea79b8faa0ad0f5445587690"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:3.0.3@jar",
+          "name": "Ambient Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76505097,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds/download/3516278/file",
+            "MD5": "727964d6b3ddb7748ea4cd333ed1b038"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4820914,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/download/3608871/file",
+            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.16.5-2.1.22@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551039,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/aquaculture/download/3652924/file",
+            "MD5": "8422adf5a82fda826d9515505e17682d"
+          }
+        },
+        {
+          "id": "architectspalette.core:architects_palette:1.1.2@jar",
+          "name": "Architect's Palette",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 960448,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/architects-palette/download/3619985/file",
+            "MD5": "60eef22191de68b3441625d6e00e77b0"
+          }
+        },
+        {
+          "id": "me.shedaniel:architectury:1.32.66@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551890,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api/download/3857643/file",
+            "MD5": "5035bb619d94ef535c0094702ebe4f31"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.6-49@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57279,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/autoreglib/download/3326041/file",
+            "MD5": "16302251afc7a757f00899b270cc0fa2"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.1.1.115@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63647,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/better-advancements/download/3404330/file",
+            "MD5": "adfe86a88ffbf084b3c5d94b3c2468a6"
+          }
+        },
+        {
+          "id": "dev.wuffs:bcc:1.0.7-build.22+mc1.16.5@jar",
+          "name": "Better Compatibility Checker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15695,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker/download/3596132/file",
+            "MD5": "87d486d0bb50181b69b9205a0ad22210"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:10.4.32@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316238,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf/download/3732239/file",
+            "MD5": "cdf592658b0b2aaff7e937d20e1e0b07"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:1.16.5-420.2@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15045251,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/botania/download/3608755/file",
+            "MD5": "04ee52602f0c1d1ac8e53c03fe8a2186"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.buzzier_bees.core:buzzier_bees:3.0.3@jar",
+          "name": "Buzzier Bees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 840640,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/buzzier-bees/download/3561118/file",
+            "MD5": "c4eba4b9020eb233131e81948a97410a"
+          }
+        },
+        {
+          "id": "corgiaoc.byg.entrypoint:byg:1.3.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10314611,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go/download/3485079/file",
+            "MD5": "dc87a6a8de81eba74bf641be5d370462"
+          }
+        },
+        {
+          "id": "com.izofar:bygonenether:1.2.1@jar",
+          "name": "Bygone Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8191218,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/bygone-nether/download/3922512/file",
+            "MD5": "3342190b93361321419c3baadf487241"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:1.16.5-2.1.3.2@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41824,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/caelus/download/3522094/file",
+            "MD5": "9396031a7b6564efe4601728c023cd6a"
+          }
+        },
+        {
+          "id": "com.blackgear.cavebiomes.core:cavebiomeapi:1.16.5-1.4.2@jar",
+          "name": "CaveBiomeAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 147708,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/cavebiomeapi/download/3519248/file",
+            "MD5": "32f6363fda1b471b1438567cba2d8ec8"
+          }
+        },
+        {
+          "id": "com.blackgear.cavesandcliffs.core:cavesandcliffs:1.16.5-7.2.0@jar",
+          "name": "Caves and Cliffs Backport",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51519595,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/caves-and-cliffs-backport/download/3592876/file",
+            "MD5": "cc8c432fc13a2bb42e42a692665ca38a"
+          }
+        },
+        {
+          "id": "net.mcreator.cavescliffsbackportadditions:cavesandcliffsbackportadditions:3.4@jar",
+          "name": "CavesandCliffsbackportadditions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3613938,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/caves-cliffs-backport-additions/download/3878346/file",
+            "MD5": "de3813a9c1cb79e72d03f28a32d1f8bd"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:1.2.6@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1607217,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-gun-mod/download/3830458/file",
+            "MD5": "3d15af75addf26471e870654a0c6df87"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.6.0@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27778,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/chat-heads/download/3570671/file",
+            "MD5": "10595dfd1a32c8e46e11a649f565fbe9"
+          }
+        },
+        {
+          "id": "com.alcatrazescapee:chocolate:1.3.0-1.16.4@jar",
+          "name": "Chocolate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23054,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/chocolate-fix/download/3166929/file",
+            "MD5": "06af2b852f30d503cb7fc9c5b0bab44e"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:1.8.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482439,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/citadel/download/3441028/file",
+            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
+          }
+        },
+        {
+          "id": "xyz.rongmario:cleancut:2.2@jar",
+          "name": "Clean Cut",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14009,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/cleancut/download/3061943/file",
+            "MD5": "8fe770bf313555a1b927c6bd62689919"
+          }
+        },
+        {
+          "id": "net.blay09.mods:clienttweaks:5.3.0@jar",
+          "name": "Client Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31203,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/client-tweaks/download/3222131/file",
+            "MD5": "71c29c06afdc5bc264068c743867f273"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth-config:4.14.64@jar",
+          "name": "Cloth Config v4 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1458777,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config/download/3782784/file",
+            "MD5": "ea43d4ff320e223c7724d50b1de70e94"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:6.0.0.28@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18397,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/clumps/download/3658432/file",
+            "MD5": "0fdfe776ae513bd8a4c7396097ce42e9"
+          }
+        },
+        {
+          "id": "com.cgessinger.creaturesandbeasts:cnb:1.2.11@jar",
+          "name": "Creatures and Beasts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 963433,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/creatures-and-beasts/download/3252973/file",
+            "MD5": "761fafff0c8dd94e15d977cc70a2704e"
+          }
+        },
+        {
+          "id": "com.natamus:collective:4.37@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 143471,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/collective/download/3913025/file",
+            "MD5": "f4ba64fc1417dc6984e755a2a22b344c"
+          }
+        },
+        {
+          "id": "top.theillusivec4:comforts:1.16.5-4.0.1.5@jar",
+          "name": "Comforts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227056,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/comforts/download/3681503/file",
+            "MD5": "5dd2c69fc508b4ee5a00a153d3161d11"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.28@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55307,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/controlling/download/3531453/file",
+            "MD5": "e7f729432d2236d3fccac400ffb1dd5c"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.16.5-1.0.6@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203988,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/corpse/download/3447907/file",
+            "MD5": "8cbd023ad32c855215ad5cba5325cb3f"
+          }
+        },
+        {
+          "id": "forge.com.gitlab.cdagaming:craftpresence:1.8.11@jar",
+          "name": "CraftPresence",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1265112,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence/download/3953647/file",
+            "MD5": "4102fd32665512060624056b5bbc084d"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:7.1.2.511@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2495117,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker/download/3833806/file",
+            "MD5": "a2119093303b9efd8b4f245693fa3203"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631207,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore/download/3419983/file",
+            "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curioofundying:1.16.5-5.2.0.0@jar",
+          "name": "Curio of Undying",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27890,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/charm-of-undying/download/3308969/file",
+            "MD5": "a140c0521dcb7cb449cc5243fe511abe"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.16.5-4.0.5.3@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 246281,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/curios/download/3456953/file",
+            "MD5": "15ff549e39f809bed3a751cf768fb72f"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curiouselytra:1.16.5-4.0.2.4@jar",
+          "name": "Curious Elytra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35409,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/elytra-slot/download/3522097/file",
+            "MD5": "1fcf661b315e2dd5c46d50407f308aa8"
+          }
+        },
+        {
+          "id": "net.darkhax:darkpaintings:6.0.11@jar",
+          "name": "DarkPaintings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43683,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/dark-paintings/download/3732278/file",
+            "MD5": "b8d92c91096da3886b203ffc759ab750"
+          }
+        },
+        {
+          "id": "co.eltrut.differentiate.core:differentiate:0.5.3@jar",
+          "name": "Differentiate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142294,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/differentiate/download/3397138/file",
+            "MD5": "3c863016c471129362cdc9a40c445261"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.49@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5544981,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise/download/3534647/file",
+            "MD5": "3fb03d325ae6459f9352bcc6a1c632c8"
+          }
+        },
+        {
+          "id": "me.lambdaurora.lambdynlights:dynamiclightsreforged:mc1.16.5_v1.0.1@jar",
+          "name": "Dynamic Lights Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 122118,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged/download/3574974/file",
+            "MD5": "1cda780a90261f66a3a3b5dce12b903c"
+          }
+        },
+        {
+          "id": "baguchan.earthmobsmod:earthmobsmod:1.16.4-0.4.2@jar",
+          "name": "Earth Mobs Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244837,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/earth-mobs/download/3188260/file",
+            "MD5": "0e113a3022206245a4de8baafb2fab86"
+          }
+        },
+        {
+          "id": "com.fuzs:easymagic:1.0.4@jar",
+          "name": "Easy Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129599,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/easy-magic/download/3528799/file",
+            "MD5": "6e4fdba755ccabc19088f5d68045dd38"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.16.5-1.7.13@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183750,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/download/3238352/file",
+            "MD5": "0eb349656093c5c3cd260ec5aa425193"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.4@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 657205,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/emotecraft-forge/download/3953236/file",
+            "MD5": "c3819423db3b3f37662019b7ab3949ec"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:7.1.20@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 59296,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions/download/3838362/file",
+            "MD5": "ef42a46d519c1009ae6ef581541a3592"
+          }
+        },
+        {
+          "id": "com.baguchan:enchantwithmob:1.16.5-1.5.2@jar",
+          "name": "Enchant With Mob",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 333707,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/enchant-with-mob/download/3539541/file",
+            "MD5": "29857bbdaacb915b048862456b87ba0b"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.5.2@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46532,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling/download/3760389/file",
+            "MD5": "8696ac24f0d209aadaf754bed9c2e1f6"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:equipmentcompare:1.3.2@jar",
+          "name": "Equipment Compare",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30109,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/equipment-compare/download/3943142/file",
+            "MD5": "e53ff6ccc15f022864af22c0dfa4d169"
+          }
+        },
+        {
+          "id": "cech12.extendedmushrooms:extendedmushrooms:1.16.5-1.7.0.4@jar",
+          "name": "Extended Mushrooms",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1011782,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/extended-mushrooms/download/3905597/file",
+            "MD5": "9850659db75285f937e12348b384e4f3"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.extraboats.core:extraboats:2.1.1@jar",
+          "name": "Extra Boats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 542830,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/boatload/download/3549093/file",
+            "MD5": "c203c6f79be1a2d35d805d2a2b45a639"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.16.5-0.6.0@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2565217,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight/download/3765350/file",
+            "MD5": "9614adb0fe0607d00fad43b773b5434c"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:2.1.0@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108520,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore/download/3485636/file",
+            "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.0.88@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3512622,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib/download/3945266/file",
+            "MD5": "978654bb2e0e084327cf1370ebcb5251"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:goblintraders:1.7.3@jar",
+          "name": "Goblin Traders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 428711,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/goblin-traders/download/3781324/file",
+            "MD5": "2161b97a4ff7c0ca199307be05839d83"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:goldenhopper:1.2.1@jar",
+          "name": "Golden Hopper",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 140278,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/golden-hopper/download/3401142/file",
+            "MD5": "6c031c78a96b928aa4e944f43e6a866a"
+          }
+        },
+        {
+          "id": "tallestegg.guardvillagers:guardvillagers:1.2.6@jar",
+          "name": "Guard Villagers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 190249,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/guard-villagers/download/3449429/file",
+            "MD5": "38c799687aee7383af3198645f4b4f1c"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:highlighter:1.1.1@jar",
+          "name": "Highlighter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24968,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/item-highlighter/download/3514530/file",
+            "MD5": "cd169d5c12dbc2e059681a3802f5d316"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.0.45@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61577,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iceberg/download/3943132/file",
+            "MD5": "ec502208377ca481a2e551b99e4cb050"
+          }
+        },
+        {
+          "id": "tallestegg.illagersweararmor:illagersweararmor:1.0.5@jar",
+          "name": "Illagers Wear Armor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47852,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/illagers-wear-armor/download/3462024/file",
+            "MD5": "714949cf31c7e4b97e1488db09eb0bbc"
+          }
+        },
+        {
+          "id": "org.infernalstudios:infernalexp:2.5.0@jar",
+          "name": "Infernal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14629220,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/infernal-expansion/download/3854047/file",
+            "MD5": "5e72dd457f74e8e56fe66093eed28233"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258298,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-chests/download/3543538/file",
+            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
+          }
+        },
+        {
+          "id": "ironfurnaces:ironfurnaces:2.7.7@jar",
+          "name": "Iron Furnaces",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493742,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-furnaces/download/3459501/file",
+            "MD5": "14d38f66b4b514aa7b03264c13599489"
+          }
+        },
+        {
+          "id": "mcp.mobius:jade:2.8.3@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260212,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/jade/download/3910873/file",
+            "MD5": "424b0eb9998bc92defc9eacb5a869a99"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.152@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 828677,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/jei/download/3681294/file",
+            "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "com.github.phylogeny:jeienchantmentinfo:1.16.5-1.3.0@jar",
+          "name": "JEI Enchantment Info",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31392,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/jei-enchantment-info/download/3751428/file",
+            "MD5": "aef6f00f29096eb2eecc74ad195bb17a"
+          }
+        },
+        {
+          "id": "com.blamejared:jeitweaker:1.1.0.49@jar",
+          "name": "JEI Tweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 151709,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/jeitweaker/download/3584024/file",
+            "MD5": "6c7ebf18dc1c42f91ee503308fed1e2c"
+          }
+        },
+        {
+          "id": "fr.alasdiablo:jerintegration:1.1.1@jar",
+          "name": "JER Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14973,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/jer-integration/download/3604406/file",
+            "MD5": "ba97712bfb481ca328b70449c4071747"
+          }
+        },
+        {
+          "id": "com.mrbysco:justenoughprofessions:1.2.2@jar",
+          "name": "Just Enough Professions (JEP)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19387,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep/download/3478185/file",
+            "MD5": "3d489f5644dddbb43f7699f829a49489"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.12.1.133@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235560,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer/download/3545538/file",
+            "MD5": "0e99c6468e6a0cbc768499857e4f41ca"
+          }
+        },
+        {
+          "id": "net.blay09.mods:kleeslabs:9.2.1@jar",
+          "name": "KleeSlabs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38992,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/kleeslabs/download/3222119/file",
+            "MD5": "dca0fe4ff0232842331fae29a581b511"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.5.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 577954,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete/download/3912990/file",
+            "MD5": "80e8bfaa1e59727fb023425c1be803b9"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:kryptonreforged:mc1.16.5_v1.0.0@jar",
+          "name": "Krypton Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2110314,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/krypton-reforged/download/3534475/file",
+            "MD5": "1e661faa2cc3be3040fb3024b93ab195"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15258,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge/download/3249059/file",
+            "MD5": "fce7920ba6329d631da4025e9322e5e0"
+          }
+        },
+        {
+          "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.3.1@jar",
+          "name": "Magnesium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91607,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/magnesium-extras/download/3771366/file",
+            "MD5": "c9206cfabde8ac176c7865c63507a4e0"
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.6.157@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806737,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mantle/download/3631982/file",
+            "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:2.0.3@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 663234,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-bridges/download/3793694/file",
+            "MD5": "03799f5bc41aa00b7c7612719a20be96"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.0.7@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 798317,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-doors/download/3930968/file",
+            "MD5": "38d38ab4a9fc339be3ec17bca645c953"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.0.6@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 269812,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls/download/3913061/file",
+            "MD5": "4c55f72404172adad3f1da740c3f763d"
+          }
+        },
+        {
+          "id": "com.mcwfurnitures.kikoz:mcwfurnitures:3.0.1@jar",
+          "name": "Macaw's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1483209,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-furniture/download/3879899/file",
+            "MD5": "8cbf2ea7466814e547f2fa8a7369832b"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.0.4@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242158,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps/download/3911483/file",
+            "MD5": "810cf68079261f79ababbe9ad09a5dd5"
+          }
+        },
+        {
+          "id": "com.mcwpaintings.kikoz:mcwpaintings:1.0.4@jar",
+          "name": "Macaw's Paintings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 59531,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-paintings/download/3922990/file",
+            "MD5": "68dfaa161f703555322d1575fe91d0b6"
+          }
+        },
+        {
+          "id": "com.mcwpaths.kikoz:mcwpaths:1.0.1@jar",
+          "name": "Macaw's Paths and Pavings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 160637,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings/download/3923427/file",
+            "MD5": "a93c85a04f3d09d750ac20a7e7a19634"
+          }
+        },
+        {
+          "id": "com.mcwtrpdoors.kikoz:mcwtrpdoors:1.0.7@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 409306,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors/download/3914237/file",
+            "MD5": "bd80d8af895241054c86f57689c6c2ed"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.0.3@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 799520,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-windows/download/3712015/file",
+            "MD5": "14e13a115a0b7a671a75ee3964207d3b"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mekanism/download/3659389/file",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.additions:mekanismadditions:10.1.2@jar",
+          "name": "Mekanism: Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1078058,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mekanism-additions/download/3659393/file",
+            "MD5": "694caa7a64411e7dcd85be4d40689ec1"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/download/3659391/file",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368033,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mekanism-tools/download/3659392/file",
+            "MD5": "7742cf452e949b171884457cedabdce1"
+          }
+        },
+        {
+          "id": "com.samebutdifferent:morevillagers:1.5.5@jar",
+          "name": "More Villagers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 265717,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/more-villagers/download/3466080/file",
+            "MD5": "28a662fada78a316e30d675c4cce0a16"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.14@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58249,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/download/3202662/file",
+            "MD5": "3b4e04a9a79094149306457c7db838d5"
+          }
+        },
+        {
+          "id": "net.mcreator.natureexpansion:nature_expansion:1.3.0@jar",
+          "name": "Nature Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552858,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/nature-expansion/download/3654894/file",
+            "MD5": "e1cd10c2bc0eb7404d54903b327c6df7"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.16.5-1.9.1-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203573,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass/download/3382150/file",
+            "MD5": "1ed5def709b0b9d0f40db32d0877fad0"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.neapolitan.core:neapolitan:2.2.1@jar",
+          "name": "Neapolitan",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4320518,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/neapolitan/download/3567243/file",
+            "MD5": "2a3556a17e6fc7122e5034220a902b53"
+          }
+        },
+        {
+          "id": "com.cgessinger:nebs:1.7.0@jar",
+          "name": "Neko’s Enchanted Books",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 263428,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/nekos-enchanted-books/download/3780206/file",
+            "MD5": "7b54eef7efd3d8fe506f534b89155629"
+          }
+        },
+        {
+          "id": "net.mcreator:nourished_end:1.0.8@jar",
+          "name": "Nourished End",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3168833,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/enlightened-end/download/3693390/file",
+            "MD5": "4436b5879012f2f8bab659ef8021e8d2"
+          }
+        },
+        {
+          "id": "net.mcreator.nourishednether:nourished_nether:1.1.3@jar",
+          "name": "Nourished Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1180821,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/nourished-nether/download/3693362/file",
+            "MD5": "b633cf55b3d2ea90f9b46cb8fa23fd2b"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/obfuscate/download/3740120/file",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.2.5a@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1778653,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/oculus/download/3888538/file",
+            "MD5": "e2d473a323d8faa24d8279e487a3ef0f"
+          }
+        },
+        {
+          "id": "tfar.overpoweredarmorbar:overloadedarmorbar:5.1.0@jar",
+          "name": "Overloaded Armor Bar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13362,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar/download/3055679/file",
+            "MD5": "1be552a71b52b662ecb0ed5ff1489504"
+          }
+        },
+        {
+          "id": "subaraki.paintings.mod:paintings:1.16.4-6.0.1.5@jar",
+          "name": "Paintings ++",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 250201,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/paintings/download/3131044/file",
+            "MD5": "8fd194e67add8bf3f015879a60ec9a32"
+          }
+        },
+        {
+          "id": "tictim.paraglider:paraglider:1.3.2.10@jar",
+          "name": "Paraglider",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 374768,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/paragliders/download/3963362/file",
+            "MD5": "5535ebac13ddb58a6fce8fe789a7998f"
+          }
+        },
+        {
+          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.3@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593352,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/patchouli/download/3847029/file",
+            "MD5": "a4791ba66914beed9bb755ae1a84ca87"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.personality.core:personality:1.0.3@jar",
+          "name": "Personality",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 288997,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/personality/download/3549549/file",
+            "MD5": "670a769a27fb13ff36051a532f8baba8"
+          }
+        },
+        {
+          "id": "com.fuzs:pickupnotifier:1.2@jar",
+          "name": "Pick Up Notifier",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42604,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier/download/3066596/file",
+            "MD5": "b2741eb4d8be4c91ba55fe00e7b7717a"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim.impl:playeranimator:0.3.3+1.16.5@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 147012,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/playeranimator/download/3953461/file",
+            "MD5": "3753a6ab2fcf32b364a129686a04b33c"
+          }
+        },
+        {
+          "id": "top.theillusivec4:polymorph:1.16.5-0.40@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 265037,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/polymorph/download/3668318/file",
+            "MD5": "491875f5ce2b4db197ed0b2c61d0bf63"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib:puzzleslib:1.0.15@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 383853,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/puzzles-lib/download/3517499/file",
+            "MD5": "cd15438ee5217328af6473cad6425ab5"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:r2.4-322@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8796901,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/quark/download/3642325/file",
+            "MD5": "1144d99278adcedb6bfac69842fbdf48"
+          }
+        },
+        {
+          "id": "com.therandomlabs:randompatches:2.4.4-forge@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423940,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/randompatches-forge/download/3211323/file",
+            "MD5": "46f910c39ee95a9dc1edf27dad5f1122"
+          }
+        },
+        {
+          "id": "baguchan.revampedwolf:revampedwolf:1.16.4-0.7.1@jar",
+          "name": "RevampedWolf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84159,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/revampedwolf/download/3177100/file",
+            "MD5": "ab493722ad1ddf71090626ca972b2dca"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:roadrunner:1.4.1@jar",
+          "name": "Meep Meep! (Road Runner)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366414,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/roadrunner/download/3683120/file",
+            "MD5": "b76e79384c46bbc5e095b42d522eb036"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.2.9@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 596704,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/rubidium/download/3929490/file",
+            "MD5": "8a369eb592d4933dac904752f4495010"
+          }
+        },
+        {
+          "id": "com.minecraftabnormals.savageandravage.core:savageandravage:3.2.0@jar",
+          "name": "Savage & Ravage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1271118,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/savage-and-ravage/download/3560051/file",
+            "MD5": "ef44257b5ab6023b23e0edb9450fce71"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.16.5-3.15.18.698@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1485216,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks/download/3959864/file",
+            "MD5": "9ce5024085b1337c4c0b659aa657090c"
+          }
+        },
+        {
+          "id": "net.mcreator.stalwartdungeons:stalwart_dungeons:1.1.7@jar",
+          "name": "Stalwart Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1542647,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/stalwart-dungeons/download/3495397/file",
+            "MD5": "479d7ed2f310e51988e158ce97daba97"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.0.0-RC2@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101511,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/starlight-x-create/download/3583654/file",
+            "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:8.5.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 575188,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/storage-drawers/download/3776277/file",
+            "MD5": "55d1f8f16010ed6ead36c4b985f2b67b"
+          }
+        },
+        {
+          "id": "com.commodorethrawn:strawgolem:1.16-1.9@jar",
+          "name": "Straw Golem",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 960286,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/strawgolem-reborn/download/3057272/file",
+            "MD5": "ff37e3b2270ecb7e6a2786c65bdbcfb5"
+          }
+        },
+        {
+          "id": "com.legacy:structure_gel:1.7.8@jar",
+          "name": "Structure Gel API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 261390,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/structure-gel-api/download/3498310/file",
+            "MD5": "04e58adbf28a07c2f649a7f4a5c6ce11"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.3.4.335@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10927812,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/download/3695126/file",
+            "MD5": "27978fc015dc861fb4d856d84d123e1a"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.reeses_sodium_options.client:reeses_sodium_options:1.0.3-mc1.16.5@jar",
+          "name": "TexTrue's Rubidium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196738,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/textrues-rubidium-options/download/3946426/file",
+            "MD5": "b1f3ef4b1740fe418d0e0d8019d8bd5d"
+          }
+        },
+        {
+          "id": "com.legacy:conjurer_illager:1.0.13@jar",
+          "name": "The Conjurer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 388218,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/the-conjurer/download/3107953/file",
+            "MD5": "0c29675ece609ea76014575bf77f83ae"
+          }
+        },
+        {
+          "id": "fuzs.tinyskeletons:tinyskeletons:1.0.1@jar",
+          "name": "Tiny Skeletons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76582,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/tiny-skeletons-forge/download/3533204/file",
+            "MD5": "cee671ed73fa05d3c6705bbe6fd5ab43"
+          }
+        },
+        {
+          "id": "fuzs.tradingpost:tradingpost:1.0.2@jar",
+          "name": "Trading Post",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 79843,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/trading-post/download/3509565/file",
+            "MD5": "f7f3cdc494440ffef33d84ea0449c8a3"
+          }
+        },
+        {
+          "id": "net.konwboy:tumbleweed:1.16-0.4.9@jar",
+          "name": "Tumbleweed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87614,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/tumbleweed/download/3140636/file",
+            "MD5": "5257204d16ba21047d03e248b6e7368f"
+          }
+        },
+        {
+          "id": "untamedwilds:untamedwilds:1.5.8@jar",
+          "name": "Untamed Wilds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2205021,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/untamedwilds/download/3877295/file",
+            "MD5": "55eb9e87f12bb9db760be255e61ea884"
+          }
+        },
+        {
+          "id": "net.untitledduckmod:untitledduckmod:0.3.0@jar",
+          "name": "Untitled Duck Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 261558,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/untitled-duck-mod-forge/download/3377370/file",
+            "MD5": "b3239e5ee98b4a02d67015be2b2424b0"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.45.1@jar",
+          "name": "MrCrayfish's Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3392743,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-vehicle-mod/download/3086203/file",
+            "MD5": "046ca32dbd0ff99dda93250b31700eee"
+          }
+        },
+        {
+          "id": "com.natamus:villagernames:3.4@jar",
+          "name": "Villager Names",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11874,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/villager-names/download/3521661/file",
+            "MD5": "3c4e8d0104cad97df1cf0deeaf412fb0"
+          }
+        },
+        {
+          "id": "fuzs.visualworkbench:visualworkbench:1.1.0@jar",
+          "name": "Visual Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62346,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/visual-workbench/download/3552849/file",
+            "MD5": "a083937a678e60db555692073bfd42f4"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.16.5-2.3.8@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7822758,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/download/3951696/file",
+            "MD5": "4585779bf62a673d9fca7b6bd2b84b2d"
+          }
+        },
+        {
+          "id": "com.affehund:voidtotem:1.16.5-1.4.0@jar",
+          "name": "Void Totem",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39763,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/voidtotem/download/3327088/file",
+            "MD5": "436dc181e3964f0741cf81ad13abaf57"
+          }
+        },
+        {
+          "id": "dev.tr7zw:waveycapes:1.2.0@jar",
+          "name": "WaveyCapes Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 422576,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/waveycapes/download/3743871/file",
+            "MD5": "fae4106e93798c41d5b8d13b5559ccb4"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:7.6.4@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 375934,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/waystones/download/3515707/file",
+            "MD5": "a73806ee8f30e26705503013a54a5961"
+          }
+        },
+        {
+          "id": "com.alexander:whatareyouvotingfor:1.0@jar",
+          "name": "What Did You Vote For?",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256566,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/what-are-you-voting-for/download/3494489/file",
+            "MD5": "ec287599a60059bb5516064c48259217"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:22.14.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1193558,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/download/3967739/file",
+            "MD5": "97251eab77d12680eea731fe47574bad"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.27.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 606369,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/download/3967765/file",
+            "MD5": "892da61350a3311228de15e5bb4eeb47"
+          }
+        },
+        {
+          "id": "xerca.xercamusic:xercamusic:1.16.5-2.0.2@jar",
+          "name": "Xerca's Music Maker Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7681290,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/music-maker-mod/download/3687870/file",
+            "MD5": "8efb9e0503f1c87bd6cc10de934544f3"
+          }
+        },
+        {
+          "id": "xerca.xercapaint:xercapaint:1.16.5-2.0@jar",
+          "name": "Joy of Painting",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 390055,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/joy-of-painting/download/3597151/file",
+            "MD5": "9cf0d7f3ce62e587c63be2573d9fce7e"
+          }
+        },
+        {
+          "id": "tfar.xlpackets:xlpackets:1.16.4-1.2@jar",
+          "name": "XL Packets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5261,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/xl-packets/download/3629577/file",
+            "MD5": "ba2a2f2e729bc614afe101a7e8e48a23"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod.xptome:xpbook:v2.1.5@jar",
+          "name": "XP Tome",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18363,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/xp-tome/download/3728697/file",
+            "MD5": "ebb57493212db90fa13581a82f712f96"
+          }
+        }
+      ]
+    }
+  ]
+}
