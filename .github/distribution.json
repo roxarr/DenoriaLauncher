@@ -11,7 +11,7 @@
       "id": "Denoria-1.16.5",
       "name": "Denoria 1.16.5",
       "description": "Serwer minecraft na modach",
-      "icon": : "https://denoria.pl/tmp/pack.png",
+      "icon": "https://denoria.pl/tmp/pack.png",
       "version": "1.0.0",
       "address": "mc.denoria.pl",
       "minecraftVersion": "1.16.5",
