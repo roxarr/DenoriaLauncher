@@ -1111,6 +1111,16 @@
           }
         },
         {
+          "id": "io.izzel.lightfall.client:lightfallclient:1.0.0+6@jar",
+          "name": "LightfallClient",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10739,
+            "url": "https://mediafiles.forgecdn.net/files/3449/83/lightfallclient-1.0.0.jar",
+            "MD5": "a56ae58cc566f264140c15bb9d1447f2"
+          }
+        },
+        {
           "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.3.1@jar",
           "name": "Magnesium Extras",
           "type": "ForgeMod",
