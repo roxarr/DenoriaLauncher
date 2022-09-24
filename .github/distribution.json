@@ -4,8 +4,8 @@
   "servers": [
     {
       "id": "Denoria-1.16.5",
-      "name": "Denoria (Minecraft 1.16.5)",
-      "description": "Denoria Running Minecraft 1.16.5 (Forge v36.2.39)",
+      "name": "Denoria 1.16.5",
+      "description": "Serwer minecraft na modach",
       "icon": "https://denoria.pl/tmp/pack.png",
       "version": "1.0.0",
       "address": "mc.denoria.pl",
