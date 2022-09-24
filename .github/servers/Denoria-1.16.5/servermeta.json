@@ -2,9 +2,9 @@
   "$schema": "file:///D:/DENORIA/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Denoria (Minecraft 1.16.5)",
-    "description": "Denoria Running Minecraft 1.16.5 (Forge v36.2.39)",
-    "address": "localhost:25565",
+    "name": "Denoria 1.16.5",
+    "description": "Serwer minecraft na modach",
+    "address": "mc.denoria.pl",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
