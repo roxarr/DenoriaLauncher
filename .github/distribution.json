@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
   "servers": [
     {
       "id": "Denoria-1.16.5",
@@ -15,11 +10,6 @@
       "version": "1.0.0",
       "address": "mc.denoria.pl",
       "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
