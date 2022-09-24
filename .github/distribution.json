@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "address": "mc.denoria.pl",
       "minecraftVersion": "1.16.5",
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -20,7 +20,7 @@
           "artifact": {
             "size": 212574,
             "MD5": "4afee0135f47547182faa2ea88efebac",
-            "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39.jar"
+            "url": "http://localhost:81/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39.jar"
           },
           "subModules": [
             {
@@ -30,7 +30,7 @@
               "artifact": {
                 "size": 13577,
                 "MD5": "2090bfafdec72f885ddf95300bd96714",
-                "url": "http://denoria.pl/tmp/repo/versions/1.16.5-forge-36.2.39/1.16.5-forge-36.2.39.json"
+                "url": "http://localhost:81/repo/versions/1.16.5-forge-36.2.39/1.16.5-forge-36.2.39.json"
               }
             },
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 2504067,
                 "MD5": "3337e44edf13c5759548623b5866b967",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
               },
               "subModules": []
             },
@@ -51,7 +51,7 @@
               "artifact": {
                 "size": 4216473,
                 "MD5": "253bbbe4aa8a7752615ea759fa178c80",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-client.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-client.jar"
               },
               "subModules": []
             },
@@ -62,7 +62,7 @@
               "artifact": {
                 "size": 11352644,
                 "MD5": "8ac1b587325a2ede3a5cbb21e93455a5",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
             },
@@ -73,7 +73,7 @@
               "artifact": {
                 "size": 9118806,
                 "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
               },
               "subModules": []
             },
@@ -84,7 +84,7 @@
               "artifact": {
                 "size": 8428369,
                 "MD5": "dbed747390f81e10cee40500b726431a",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
               },
               "subModules": []
             },
@@ -95,7 +95,7 @@
               "artifact": {
                 "size": 121790,
                 "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
-                "url": "http://denoria.pl/tmp/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+                "url": "http://localhost:81/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
               }
             },
             {
@@ -105,7 +105,7 @@
               "artifact": {
                 "size": 72641,
                 "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
-                "url": "http://denoria.pl/tmp/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+                "url": "http://localhost:81/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
               }
             },
             {
@@ -115,7 +115,7 @@
               "artifact": {
                 "size": 52662,
                 "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
-                "url": "http://denoria.pl/tmp/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+                "url": "http://localhost:81/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
               }
             },
             {
@@ -125,7 +125,7 @@
               "artifact": {
                 "size": 84679,
                 "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
-                "url": "http://denoria.pl/tmp/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+                "url": "http://localhost:81/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
               }
             },
             {
@@ -135,7 +135,7 @@
               "artifact": {
                 "size": 34257,
                 "MD5": "f0e82941173b6049c03e8214ace70ecd",
-                "url": "http://denoria.pl/tmp/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+                "url": "http://localhost:81/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
               }
             },
             {
@@ -145,7 +145,7 @@
               "artifact": {
                 "size": 126747,
                 "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
-                "url": "http://denoria.pl/tmp/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+                "url": "http://localhost:81/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
               }
             },
             {
@@ -155,7 +155,7 @@
               "artifact": {
                 "size": 2113,
                 "MD5": "d19b487241008d8e6111137a289ea1d7",
-                "url": "http://denoria.pl/tmp/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+                "url": "http://localhost:81/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
               }
             },
             {
@@ -165,7 +165,7 @@
               "artifact": {
                 "size": 76586,
                 "MD5": "ada4c365c3d0de73c05a94010432b547",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
               }
             },
             {
@@ -175,7 +175,7 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "http://denoria.pl/tmp/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "http://localhost:81/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
@@ -185,7 +185,7 @@
               "artifact": {
                 "size": 42873,
                 "MD5": "84c4758e6139b70146104be5bb1300b5",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
               }
             },
             {
@@ -195,7 +195,7 @@
               "artifact": {
                 "size": 20172,
                 "MD5": "8f1f6942d17d88d704324e8000666a1a",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
               }
             },
             {
@@ -205,7 +205,7 @@
               "artifact": {
                 "size": 25453,
                 "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
               }
             },
             {
@@ -215,7 +215,7 @@
               "artifact": {
                 "size": 2834,
                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
               }
             },
             {
@@ -225,7 +225,7 @@
               "artifact": {
                 "size": 199091,
                 "MD5": "093b0ca357d3f8b922170b8d7f43948c",
-                "url": "http://denoria.pl/tmp/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+                "url": "http://localhost:81/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
               }
             },
             {
@@ -235,7 +235,7 @@
               "artifact": {
                 "size": 31288,
                 "MD5": "615b8e62371c536f876764591990118d",
-                "url": "http://denoria.pl/tmp/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+                "url": "http://localhost:81/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
               }
             },
             {
@@ -245,7 +245,7 @@
               "artifact": {
                 "size": 732926,
                 "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
-                "url": "http://denoria.pl/tmp/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+                "url": "http://localhost:81/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
               }
             },
             {
@@ -255,7 +255,7 @@
               "artifact": {
                 "size": 57824,
                 "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
-                "url": "http://denoria.pl/tmp/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+                "url": "http://localhost:81/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
               }
             },
             {
@@ -265,7 +265,7 @@
               "artifact": {
                 "size": 15425,
                 "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "http://denoria.pl/tmp/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "url": "http://localhost:81/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
               }
             },
             {
@@ -275,7 +275,7 @@
               "artifact": {
                 "size": 301804,
                 "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "http://denoria.pl/tmp/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+                "url": "http://localhost:81/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
               }
             },
             {
@@ -285,7 +285,7 @@
               "artifact": {
                 "size": 1789769,
                 "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "http://denoria.pl/tmp/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                "url": "http://localhost:81/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
               }
             },
             {
@@ -295,7 +295,7 @@
               "artifact": {
                 "size": 21223,
                 "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "http://denoria.pl/tmp/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+                "url": "http://localhost:81/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
               }
             },
             {
@@ -305,7 +305,7 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "http://localhost:81/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
@@ -315,7 +315,7 @@
               "artifact": {
                 "size": 78146,
                 "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "http://denoria.pl/tmp/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                "url": "http://localhost:81/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
               }
             },
             {
@@ -325,7 +325,7 @@
               "artifact": {
                 "size": 1069391,
                 "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
-                "url": "http://denoria.pl/tmp/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+                "url": "http://localhost:81/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
               }
             },
             {
@@ -335,7 +335,7 @@
               "artifact": {
                 "size": 2194057,
                 "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
-                "url": "http://denoria.pl/tmp/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+                "url": "http://localhost:81/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
               }
             }
           ]
@@ -346,7 +346,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 380495,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/3dSkinLayers-forge-1.1.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/3dSkinLayers-forge-1.1.0.jar",
             "MD5": "dba8ab24194f55b0cc4d5d1039ce86e3"
           }
         },
@@ -356,7 +356,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 975979,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/abnormals_core-1.16.5-3.3.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/abnormals_core-1.16.5-3.3.1.jar",
             "MD5": "0c91b63a7f5863a10c2f1dfd7bf604af"
           }
         },
@@ -366,7 +366,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 18135643,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/alexsmobs-1.12.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/alexsmobs-1.12.1.jar",
             "MD5": "5f3cbbbdea79b8faa0ad0f5445587690"
           }
         },
@@ -376,7 +376,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76505097,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/AmbientSounds_v3.1.11_mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/AmbientSounds_v3.1.11_mc1.16.5.jar",
             "MD5": "727964d6b3ddb7748ea4cd333ed1b038"
           }
         },
@@ -386,7 +386,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4820914,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
             "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
           }
         },
@@ -396,7 +396,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 551039,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Aquaculture-1.16.5-2.1.22.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Aquaculture-1.16.5-2.1.22.jar",
             "MD5": "8422adf5a82fda826d9515505e17682d"
           }
         },
@@ -406,7 +406,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 960448,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Architects-Palette-1.16.4-1.1.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Architects-Palette-1.16.4-1.1.5.jar",
             "MD5": "60eef22191de68b3441625d6e00e77b0"
           }
         },
@@ -416,7 +416,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 551890,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/architectury-1.32.66.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/architectury-1.32.66.jar",
             "MD5": "5035bb619d94ef535c0094702ebe4f31"
           }
         },
@@ -426,7 +426,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 57279,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/AutoRegLib-1.6-49.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/AutoRegLib-1.6-49.jar",
             "MD5": "16302251afc7a757f00899b270cc0fa2"
           }
         },
@@ -436,7 +436,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 63647,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/BetterAdvancements-1.16.5-0.1.1.115.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/BetterAdvancements-1.16.5-0.1.1.115.jar",
             "MD5": "adfe86a88ffbf084b3c5d94b3c2468a6"
           }
         },
@@ -446,7 +446,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15695,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar",
             "MD5": "87d486d0bb50181b69b9205a0ad22210"
           }
         },
@@ -456,7 +456,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 316238,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.32.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.32.jar",
             "MD5": "cdf592658b0b2aaff7e937d20e1e0b07"
           }
         },
@@ -466,7 +466,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15045251,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Botania-1.16.5-420.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Botania-1.16.5-420.2.jar",
             "MD5": "04ee52602f0c1d1ac8e53c03fe8a2186"
           }
         },
@@ -476,7 +476,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 840640,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/buzzier_bees-1.16.5-3.0.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/buzzier_bees-1.16.5-3.0.3.jar",
             "MD5": "c4eba4b9020eb233131e81948a97410a"
           }
         },
@@ -486,7 +486,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10314611,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/byg-1.3.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/byg-1.3.5.jar",
             "MD5": "dc87a6a8de81eba74bf641be5d370462"
           }
         },
@@ -496,7 +496,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8191218,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/bygonenether-1.2.1-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/bygonenether-1.2.1-1.16.5.jar",
             "MD5": "3342190b93361321419c3baadf487241"
           }
         },
@@ -506,7 +506,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 41824,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/caelus-forge-1.16.5-2.1.3.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/caelus-forge-1.16.5-2.1.3.2.jar",
             "MD5": "9396031a7b6564efe4601728c023cd6a"
           }
         },
@@ -516,7 +516,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 147708,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/cavebiomeapi-1.16.5-1.4.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/cavebiomeapi-1.16.5-1.4.2.jar",
             "MD5": "32f6363fda1b471b1438567cba2d8ec8"
           }
         },
@@ -526,7 +526,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 51519595,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/cavesandcliffs-1.16.5-7.2.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/cavesandcliffs-1.16.5-7.2.0.jar",
             "MD5": "cc8c432fc13a2bb42e42a692665ca38a"
           }
         },
@@ -536,7 +536,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3613938,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/CavesCliffsBackportAdditions-3.4.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/CavesCliffsBackportAdditions-3.4.jar",
             "MD5": "de3813a9c1cb79e72d03f28a32d1f8bd"
           }
         },
@@ -546,7 +546,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1607217,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/cgm-1.2.6-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/cgm-1.2.6-1.16.5.jar",
             "MD5": "3d15af75addf26471e870654a0c6df87"
           }
         },
@@ -556,7 +556,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 27778,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/chat_heads-0.6.0-forge-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/chat_heads-0.6.0-forge-1.16.5.jar",
             "MD5": "10595dfd1a32c8e46e11a649f565fbe9"
           }
         },
@@ -566,7 +566,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 23054,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/chocolate-1.3.0-1.16.4.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/chocolate-1.3.0-1.16.4.jar",
             "MD5": "06af2b852f30d503cb7fc9c5b0bab44e"
           }
         },
@@ -576,7 +576,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 482439,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
             "MD5": "9ee0682eec5d343c6238e30c21c98e69"
           }
         },
@@ -586,7 +586,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14009,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/cleancut-mc1.16-2.2-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/cleancut-mc1.16-2.2-forge.jar",
             "MD5": "8fe770bf313555a1b927c6bd62689919"
           }
         },
@@ -596,7 +596,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 31203,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/ClientTweaks_1.16.3-5.3.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/ClientTweaks_1.16.3-5.3.0.jar",
             "MD5": "71c29c06afdc5bc264068c743867f273"
           }
         },
@@ -606,7 +606,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1458777,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/cloth-config-4.14.64-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/cloth-config-4.14.64-forge.jar",
             "MD5": "ea43d4ff320e223c7724d50b1de70e94"
           }
         },
@@ -616,7 +616,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 18397,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Clumps-6.0.0.28.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Clumps-6.0.0.28.jar",
             "MD5": "0fdfe776ae513bd8a4c7396097ce42e9"
           }
         },
@@ -626,7 +626,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 963433,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/CNB-1.16.3_5-1.2.11.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/CNB-1.16.3_5-1.2.11.jar",
             "MD5": "761fafff0c8dd94e15d977cc70a2704e"
           }
         },
@@ -636,7 +636,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 143471,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/collective-1.16.5-4.37.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/collective-1.16.5-4.37.jar",
             "MD5": "f4ba64fc1417dc6984e755a2a22b344c"
           }
         },
@@ -646,7 +646,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 227056,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/comforts-forge-1.16.5-4.0.1.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/comforts-forge-1.16.5-4.0.1.5.jar",
             "MD5": "5dd2c69fc508b4ee5a00a153d3161d11"
           }
         },
@@ -656,7 +656,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 55307,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Controlling-7.0.0.28.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Controlling-7.0.0.28.jar",
             "MD5": "e7f729432d2236d3fccac400ffb1dd5c"
           }
         },
@@ -666,7 +666,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 203988,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/corpse-1.16.5-1.0.6.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/corpse-1.16.5-1.0.6.jar",
             "MD5": "8cbd023ad32c855215ad5cba5325cb3f"
           }
         },
@@ -676,7 +676,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1265112,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/CraftPresence-1.16.5-Release-1.8.11-universal.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/CraftPresence-1.16.5-Release-1.8.11-universal.jar",
             "MD5": "4102fd32665512060624056b5bbc084d"
           }
         },
@@ -686,7 +686,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2495117,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.511.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.511.jar",
             "MD5": "a2119093303b9efd8b4f245693fa3203"
           }
         },
@@ -696,7 +696,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 631207,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5.jar",
             "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
           }
         },
@@ -706,7 +706,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 27890,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/curioofundying-forge-1.16.5-5.2.0.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/curioofundying-forge-1.16.5-5.2.0.0.jar",
             "MD5": "a140c0521dcb7cb449cc5243fe511abe"
           }
         },
@@ -716,7 +716,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 246281,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/curios-forge-1.16.5-4.0.5.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/curios-forge-1.16.5-4.0.5.3.jar",
             "MD5": "15ff549e39f809bed3a751cf768fb72f"
           }
         },
@@ -726,7 +726,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 35409,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/curiouselytra-forge-1.16.5-4.0.2.4.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/curiouselytra-forge-1.16.5-4.0.2.4.jar",
             "MD5": "1fcf661b315e2dd5c46d50407f308aa8"
           }
         },
@@ -736,7 +736,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 43683,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/DarkPaintings-1.16.5-6.0.11.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/DarkPaintings-1.16.5-6.0.11.jar",
             "MD5": "b8d92c91096da3886b203ffc759ab750"
           }
         },
@@ -746,7 +746,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 142294,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/differentiate-1.16.5-0.5.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/differentiate-1.16.5-0.5.3.jar",
             "MD5": "3c863016c471129362cdc9a40c445261"
           }
         },
@@ -756,7 +756,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5544981,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/DungeonsArise-1.16.5-2.1.49-beta.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/DungeonsArise-1.16.5-2.1.49-beta.jar",
             "MD5": "3fb03d325ae6459f9352bcc6a1c632c8"
           }
         },
@@ -766,7 +766,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 122118,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/dynamiclightsreforged-mc1.16.5_v1.0.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/dynamiclightsreforged-mc1.16.5_v1.0.1.jar",
             "MD5": "1cda780a90261f66a3a3b5dce12b903c"
           }
         },
@@ -776,7 +776,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 244837,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/earthmobsmod-1.16.4-0.4.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/earthmobsmod-1.16.4-0.4.2.jar",
             "MD5": "0e113a3022206245a4de8baafb2fab86"
           }
         },
@@ -786,7 +786,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 129599,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/EasyMagic-v1.0.4-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/EasyMagic-v1.0.4-1.16.5.jar",
             "MD5": "6e4fdba755ccabc19088f5d68045dd38"
           }
         },
@@ -796,7 +796,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 183750,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/elevatorid-1.16.5-1.7.13.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/elevatorid-1.16.5-1.7.13.jar",
             "MD5": "0eb349656093c5c3cd260ec5aa425193"
           }
         },
@@ -806,7 +806,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 657205,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/emotecraft-for-MC1.16.5-2.2.4-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/emotecraft-for-MC1.16.5-2.2.4-forge.jar",
             "MD5": "c3819423db3b3f37662019b7ab3949ec"
           }
         },
@@ -816,7 +816,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 59296,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/EnchantmentDescriptions-1.16.5-7.1.20.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/EnchantmentDescriptions-1.16.5-7.1.20.jar",
             "MD5": "ef42a46d519c1009ae6ef581541a3592"
           }
         },
@@ -826,7 +826,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 333707,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/enchantwithmob-1.16.5-1.5.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/enchantwithmob-1.16.5-1.5.2.jar",
             "MD5": "29857bbdaacb915b048862456b87ba0b"
           }
         },
@@ -836,7 +836,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 46532,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/entityculling-forge-mc1.16.5-1.5.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/entityculling-forge-mc1.16.5-1.5.2.jar",
             "MD5": "8696ac24f0d209aadaf754bed9c2e1f6"
           }
         },
@@ -846,7 +846,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 30109,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/EquipmentCompare-1.16.5-1.3.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/EquipmentCompare-1.16.5-1.3.2.jar",
             "MD5": "e53ff6ccc15f022864af22c0dfa4d169"
           }
         },
@@ -856,7 +856,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1011782,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/extendedmushrooms-1.16.5-1.7.0.4.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/extendedmushrooms-1.16.5-1.7.0.4.jar",
             "MD5": "9850659db75285f937e12348b384e4f3"
           }
         },
@@ -866,7 +866,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 542830,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/extraboats-1.16.5-2.1.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/extraboats-1.16.5-2.1.1.jar",
             "MD5": "c203c6f79be1a2d35d805d2a2b45a639"
           }
         },
@@ -876,7 +876,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2565217,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/FarmersDelight-1.16.5-0.6.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/FarmersDelight-1.16.5-0.6.0.jar",
             "MD5": "9614adb0fe0607d00fad43b773b5434c"
           }
         },
@@ -886,7 +886,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 108520,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/ferritecore-2.1.0-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/ferritecore-2.1.0-forge.jar",
             "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
           }
         },
@@ -896,7 +896,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3512622,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/geckolib-forge-1.16.5-3.0.88.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/geckolib-forge-1.16.5-3.0.88.jar",
             "MD5": "978654bb2e0e084327cf1370ebcb5251"
           }
         },
@@ -906,7 +906,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 428711,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/goblintraders-1.7.3-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/goblintraders-1.7.3-1.16.5.jar",
             "MD5": "2161b97a4ff7c0ca199307be05839d83"
           }
         },
@@ -916,7 +916,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 140278,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/goldenhopper-1.2.1-1.16.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/goldenhopper-1.2.1-1.16.3.jar",
             "MD5": "6c031c78a96b928aa4e944f43e6a866a"
           }
         },
@@ -926,7 +926,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 190249,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/guardvillagers-1.16.5.1.2.6.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/guardvillagers-1.16.5.1.2.6.jar",
             "MD5": "38c799687aee7383af3198645f4b4f1c"
           }
         },
@@ -936,7 +936,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 24968,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Highlighter-1.16.5-1.1.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Highlighter-1.16.5-1.1.1.jar",
             "MD5": "cd169d5c12dbc2e059681a3802f5d316"
           }
         },
@@ -946,7 +946,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 61577,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Iceberg-1.16.5-1.0.45.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Iceberg-1.16.5-1.0.45.jar",
             "MD5": "ec502208377ca481a2e551b99e4cb050"
           }
         },
@@ -956,7 +956,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 47852,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/illagersweararmor-1.0.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/illagersweararmor-1.0.5.jar",
             "MD5": "714949cf31c7e4b97e1488db09eb0bbc"
           }
         },
@@ -966,7 +966,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14629220,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/infernal-expansion-1.16.5-2.5.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/infernal-expansion-1.16.5-2.5.0.jar",
             "MD5": "5e72dd457f74e8e56fe66093eed28233"
           }
         },
@@ -976,7 +976,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 258298,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
             "MD5": "ad813ff46d3c9ba127e1033bfe957758"
           }
         },
@@ -986,7 +986,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 493742,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/ironfurnaces-1.16.5-2.7.7.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/ironfurnaces-1.16.5-2.7.7.jar",
             "MD5": "14d38f66b4b514aa7b03264c13599489"
           }
         },
@@ -996,7 +996,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 260212,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Jade-1.16.4-2.8.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Jade-1.16.4-2.8.3.jar",
             "MD5": "424b0eb9998bc92defc9eacb5a869a99"
           }
         },
@@ -1006,7 +1006,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 828677,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
             "MD5": "fb5fe43b43be01abc6c24eff29791b52"
           }
         },
@@ -1016,7 +1016,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 31392,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/JEIEnchantmentInfo-1.16.5-1.3.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/JEIEnchantmentInfo-1.16.5-1.3.0.jar",
             "MD5": "aef6f00f29096eb2eecc74ad195bb17a"
           }
         },
@@ -1026,7 +1026,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 151709,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/JEITweaker-1.16.5-1.1.0.49.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/JEITweaker-1.16.5-1.1.0.49.jar",
             "MD5": "6c7ebf18dc1c42f91ee503308fed1e2c"
           }
         },
@@ -1036,7 +1036,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14973,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/JER-Integration-1.1.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/JER-Integration-1.1.1.jar",
             "MD5": "ba97712bfb481ca328b70449c4071747"
           }
         },
@@ -1046,7 +1046,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 19387,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/JustEnoughProfessions-1.16.5-1.2.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/JustEnoughProfessions-1.16.5-1.2.2.jar",
             "MD5": "3d489f5644dddbb43f7699f829a49489"
           }
         },
@@ -1056,7 +1056,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 235560,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/JustEnoughResources-1.16.5-0.12.1.133.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/JustEnoughResources-1.16.5-0.12.1.133.jar",
             "MD5": "0e99c6468e6a0cbc768499857e4f41ca"
           }
         },
@@ -1066,7 +1066,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 38992,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/KleeSlabs_1.16.5-9.2.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/KleeSlabs_1.16.5-9.2.1.jar",
             "MD5": "dca0fe4ff0232842331fae29a581b511"
           }
         },
@@ -1076,7 +1076,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 577954,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/konkrete_forge_1.5.0_MC_1.16.2-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/konkrete_forge_1.5.0_MC_1.16.2-1.16.5.jar",
             "MD5": "80e8bfaa1e59727fb023425c1be803b9"
           }
         },
@@ -1086,7 +1086,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2110314,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/kryptonreforged-mc1.16.5_v1.0.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/kryptonreforged-mc1.16.5_v1.0.0.jar",
             "MD5": "1e661faa2cc3be3040fb3024b93ab195"
           }
         },
@@ -1096,7 +1096,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 15258,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/lazydfu-0.1.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/lazydfu-0.1.3.jar",
             "MD5": "fce7920ba6329d631da4025e9322e5e0"
           }
         },
@@ -1106,7 +1106,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10739,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
             "MD5": "a56ae58cc566f264140c15bb9d1447f2"
           }
         },
@@ -1116,7 +1116,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 91607,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/magnesium_extras-mc1.16.5_v1.3.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/magnesium_extras-mc1.16.5_v1.3.1.jar",
             "MD5": "c9206cfabde8ac176c7865c63507a4e0"
           }
         },
@@ -1126,7 +1126,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 806737,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Mantle-1.16.5-1.6.157.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Mantle-1.16.5-1.6.157.jar",
             "MD5": "e5ee7cb043a90615d0fdacffbc1f6790"
           }
         },
@@ -1136,7 +1136,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 663234,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-bridges-2.0.3-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-bridges-2.0.3-mc1.16.5.jar",
             "MD5": "03799f5bc41aa00b7c7612719a20be96"
           }
         },
@@ -1146,7 +1146,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 798317,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-doors-1.0.7-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-doors-1.0.7-mc1.16.5.jar",
             "MD5": "38d38ab4a9fc339be3ec17bca645c953"
           }
         },
@@ -1156,7 +1156,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 269812,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-fences-1.0.6-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-fences-1.0.6-mc1.16.5.jar",
             "MD5": "4c55f72404172adad3f1da740c3f763d"
           }
         },
@@ -1166,7 +1166,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1483209,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-furniture-3.0.1-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-furniture-3.0.1-mc1.16.5.jar",
             "MD5": "8cbf2ea7466814e547f2fa8a7369832b"
           }
         },
@@ -1176,7 +1176,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 242158,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-lights-1.0.4-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-lights-1.0.4-mc1.16.5.jar",
             "MD5": "810cf68079261f79ababbe9ad09a5dd5"
           }
         },
@@ -1186,7 +1186,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 59531,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-paintings-1.0.4-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-paintings-1.0.4-mc1.16.5.jar",
             "MD5": "68dfaa161f703555322d1575fe91d0b6"
           }
         },
@@ -1196,7 +1196,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 160637,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-paths-1.0.1-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-paths-1.0.1-mc1.16.5.jar",
             "MD5": "a93c85a04f3d09d750ac20a7e7a19634"
           }
         },
@@ -1206,7 +1206,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 409306,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-trapdoors-1.0.7-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-trapdoors-1.0.7-mc1.16.5.jar",
             "MD5": "bd80d8af895241054c86f57689c6c2ed"
           }
         },
@@ -1216,7 +1216,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 799520,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/mcw-windows-2.0.3-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/mcw-windows-2.0.3-mc1.16.5.jar",
             "MD5": "14e13a115a0b7a671a75ee3964207d3b"
           }
         },
@@ -1226,7 +1226,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11181433,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
             "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
           }
         },
@@ -1236,7 +1236,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1078058,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
             "MD5": "694caa7a64411e7dcd85be4d40689ec1"
           }
         },
@@ -1246,7 +1246,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 985334,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
             "MD5": "8e0854f544510952dda70eb3c840638e"
           }
         },
@@ -1256,7 +1256,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 368033,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
             "MD5": "7742cf452e949b171884457cedabdce1"
           }
         },
@@ -1266,7 +1266,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 265717,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/morevillagers-FORGE-1.16.5-1.5.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/morevillagers-FORGE-1.16.5-1.5.5.jar",
             "MD5": "28a662fada78a316e30d675c4cce0a16"
           }
         },
@@ -1276,7 +1276,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 58249,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/MouseTweaks-2.14-mc1.16.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/MouseTweaks-2.14-mc1.16.2.jar",
             "MD5": "3b4e04a9a79094149306457c7db838d5"
           }
         },
@@ -1286,7 +1286,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 552858,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/NatureExpansion1.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/NatureExpansion1.5.jar",
             "MD5": "e1cd10c2bc0eb7404d54903b327c6df7"
           }
         },
@@ -1296,7 +1296,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 203573,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/NaturesCompass-1.16.5-1.9.1-forge.jar",
             "MD5": "1ed5def709b0b9d0f40db32d0877fad0"
           }
         },
@@ -1306,7 +1306,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4320518,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/neapolitan-1.16.5-2.2.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/neapolitan-1.16.5-2.2.1.jar",
             "MD5": "2a3556a17e6fc7122e5034220a902b53"
           }
         },
@@ -1316,7 +1316,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 263428,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/NekosEnchantedBooks-1.16-1.7.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/NekosEnchantedBooks-1.16-1.7.0.jar",
             "MD5": "7b54eef7efd3d8fe506f534b89155629"
           }
         },
@@ -1326,7 +1326,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3168833,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/NourishedEndV9-1.16.5Backport.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/NourishedEndV9-1.16.5Backport.jar",
             "MD5": "4436b5879012f2f8bab659ef8021e8d2"
           }
         },
@@ -1336,7 +1336,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1180821,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/NourishedNetherV12-1.16.5Backport.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/NourishedNetherV12-1.16.5Backport.jar",
             "MD5": "b633cf55b3d2ea90f9b46cb8fa23fd2b"
           }
         },
@@ -1346,7 +1346,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 142536,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
             "MD5": "514fe4c6c39bc1b7e474d813daab593e"
           }
         },
@@ -1356,7 +1356,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1778653,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/oculus-1.2.5a.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/oculus-1.2.5a.jar",
             "MD5": "e2d473a323d8faa24d8279e487a3ef0f"
           }
         },
@@ -1366,7 +1366,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 13362,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/overloadedarmorbar-5.1.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/overloadedarmorbar-5.1.0.jar",
             "MD5": "1be552a71b52b662ecb0ed5ff1489504"
           }
         },
@@ -1376,7 +1376,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 250201,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/paintings-1.16.4-7.0.0.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/paintings-1.16.4-7.0.0.1.jar",
             "MD5": "8fd194e67add8bf3f015879a60ec9a32"
           }
         },
@@ -1386,7 +1386,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 374768,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Paraglider-1.16.5-1.3.2.10.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Paraglider-1.16.5-1.3.2.10.jar",
             "MD5": "5535ebac13ddb58a6fce8fe789a7998f"
           }
         },
@@ -1396,7 +1396,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 593352,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Patchouli-1.16.4-53.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Patchouli-1.16.4-53.3.jar",
             "MD5": "a4791ba66914beed9bb755ae1a84ca87"
           }
         },
@@ -1406,7 +1406,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 288997,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/personality-1.16.5-1.0.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/personality-1.16.5-1.0.3.jar",
             "MD5": "670a769a27fb13ff36051a532f8baba8"
           }
         },
@@ -1416,7 +1416,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 42604,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/PickUpNotifier-v1.2-1.16.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/PickUpNotifier-v1.2-1.16.3.jar",
             "MD5": "b2741eb4d8be4c91ba55fe00e7b7717a"
           }
         },
@@ -1426,7 +1426,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 147012,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/player-animation-lib-forge-0.3.3+1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/player-animation-lib-forge-0.3.3+1.16.5.jar",
             "MD5": "3753a6ab2fcf32b364a129686a04b33c"
           }
         },
@@ -1436,7 +1436,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 265037,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/polymorph-forge-1.16.5-0.40.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/polymorph-forge-1.16.5-0.40.jar",
             "MD5": "491875f5ce2b4db197ed0b2c61d0bf63"
           }
         },
@@ -1446,7 +1446,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 383853,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/PuzzlesLib-v1.0.15-1.16.5-Forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/PuzzlesLib-v1.0.15-1.16.5-Forge.jar",
             "MD5": "cd15438ee5217328af6473cad6425ab5"
           }
         },
@@ -1456,7 +1456,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8796901,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Quark-r2.4-322.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Quark-r2.4-322.jar",
             "MD5": "1144d99278adcedb6bfac69842fbdf48"
           }
         },
@@ -1466,7 +1466,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 423940,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/randompatches-2.4.4-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/randompatches-2.4.4-forge.jar",
             "MD5": "46f910c39ee95a9dc1edf27dad5f1122"
           }
         },
@@ -1476,7 +1476,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 84159,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/RevampedWolf-1.16.4-0.7.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/RevampedWolf-1.16.4-0.7.1.jar",
             "MD5": "ab493722ad1ddf71090626ca972b2dca"
           }
         },
@@ -1486,7 +1486,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 366414,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/RoadRunner-mc1.16.5-1.4.1.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/RoadRunner-mc1.16.5-1.4.1.jar",
             "MD5": "b76e79384c46bbc5e095b42d522eb036"
           }
         },
@@ -1496,7 +1496,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 596704,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/rubidium-0.2.9.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/rubidium-0.2.9.jar",
             "MD5": "8a369eb592d4933dac904752f4495010"
           }
         },
@@ -1506,7 +1506,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1271118,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/savageandravage-1.16.5-3.2.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/savageandravage-1.16.5-3.2.0.jar",
             "MD5": "ef44257b5ab6023b23e0edb9450fce71"
           }
         },
@@ -1516,7 +1516,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1485216,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/sophisticatedbackpacks-1.16.5-3.15.18.698.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/sophisticatedbackpacks-1.16.5-3.15.18.698.jar",
             "MD5": "9ce5024085b1337c4c0b659aa657090c"
           }
         },
@@ -1526,7 +1526,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1542647,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/stalwart-dungeons-1.16.5-1.1.7.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/stalwart-dungeons-1.16.5-1.1.7.jar",
             "MD5": "479d7ed2f310e51988e158ce97daba97"
           }
         },
@@ -1536,7 +1536,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 101511,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/starlight-1.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/starlight-1.2.jar",
             "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
           }
         },
@@ -1546,7 +1546,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 575188,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.2.jar",
             "MD5": "55d1f8f16010ed6ead36c4b985f2b67b"
           }
         },
@@ -1556,7 +1556,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 960286,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/strawgolem-1.16-1.9.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/strawgolem-1.16-1.9.jar",
             "MD5": "ff37e3b2270ecb7e6a2786c65bdbcfb5"
           }
         },
@@ -1566,7 +1566,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 261390,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/structure_gel-1.16.5-1.7.8.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/structure_gel-1.16.5-1.7.8.jar",
             "MD5": "04e58adbf28a07c2f649a7f4a5c6ce11"
           }
         },
@@ -1576,7 +1576,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10927812,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/TConstruct-1.16.5-3.3.4.335.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/TConstruct-1.16.5-3.3.4.335.jar",
             "MD5": "27978fc015dc861fb4d856d84d123e1a"
           }
         },
@@ -1586,7 +1586,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 196738,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/textrues_rubidium_options-1.0.3-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/textrues_rubidium_options-1.0.3-mc1.16.5.jar",
             "MD5": "b1f3ef4b1740fe418d0e0d8019d8bd5d"
           }
         },
@@ -1596,7 +1596,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 388218,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/the-conjurer-1.16.4-1.0.13.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/the-conjurer-1.16.4-1.0.13.jar",
             "MD5": "0c29675ece609ea76014575bf77f83ae"
           }
         },
@@ -1606,7 +1606,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76582,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/TinySkeletons-v1.0.1-1.16.5-Forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/TinySkeletons-v1.0.1-1.16.5-Forge.jar",
             "MD5": "cee671ed73fa05d3c6705bbe6fd5ab43"
           }
         },
@@ -1616,7 +1616,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 79843,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/TradingPost-v1.0.2-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/TradingPost-v1.0.2-1.16.5.jar",
             "MD5": "f7f3cdc494440ffef33d84ea0449c8a3"
           }
         },
@@ -1626,7 +1626,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 87614,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/tumbleweed-1.16-0.4.9.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/tumbleweed-1.16-0.4.9.jar",
             "MD5": "5257204d16ba21047d03e248b6e7368f"
           }
         },
@@ -1636,7 +1636,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2205021,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/untamedwilds-1.16.5-1.5.8.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/untamedwilds-1.16.5-1.5.8.jar",
             "MD5": "55eb9e87f12bb9db760be255e61ea884"
           }
         },
@@ -1646,7 +1646,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 261558,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/untitledduckmod-0.3.0-forge.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/untitledduckmod-0.3.0-forge.jar",
             "MD5": "b3239e5ee98b4a02d67015be2b2424b0"
           }
         },
@@ -1656,7 +1656,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3392743,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/vehicle-0.45.1-mc1.16.3.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/vehicle-0.45.1-mc1.16.3.jar",
             "MD5": "046ca32dbd0ff99dda93250b31700eee"
           }
         },
@@ -1666,7 +1666,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11874,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/villagernames_1.16.5-3.4.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/villagernames_1.16.5-3.4.jar",
             "MD5": "3c4e8d0104cad97df1cf0deeaf412fb0"
           }
         },
@@ -1676,7 +1676,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 62346,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/VisualWorkbench-v1.1.0-1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/VisualWorkbench-v1.1.0-1.16.5.jar",
             "MD5": "a083937a678e60db555692073bfd42f4"
           }
         },
@@ -1686,7 +1686,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7822758,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.3.8.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.3.8.jar",
             "MD5": "4585779bf62a673d9fca7b6bd2b84b2d"
           }
         },
@@ -1696,7 +1696,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 39763,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/voidtotem-1.16.5-1.4.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/voidtotem-1.16.5-1.4.0.jar",
             "MD5": "436dc181e3964f0741cf81ad13abaf57"
           }
         },
@@ -1706,7 +1706,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 422576,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/WaveyCapes-forge-1.2.0-mc1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/WaveyCapes-forge-1.2.0-mc1.16.5.jar",
             "MD5": "fae4106e93798c41d5b8d13b5559ccb4"
           }
         },
@@ -1716,7 +1716,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 375934,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Waystones_1.16.5-7.6.4.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Waystones_1.16.5-7.6.4.jar",
             "MD5": "a73806ee8f30e26705503013a54a5961"
           }
         },
@@ -1726,7 +1726,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 256566,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/what_did_you_vote_for-1.16.5-1.0.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/what_did_you_vote_for-1.16.5-1.0.5.jar",
             "MD5": "ec287599a60059bb5516064c48259217"
           }
         },
@@ -1736,7 +1736,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1193558,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/Xaeros_Minimap_22.14.0_Forge_1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/Xaeros_Minimap_22.14.0_Forge_1.16.5.jar",
             "MD5": "97251eab77d12680eea731fe47574bad"
           }
         },
@@ -1746,7 +1746,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 606369,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/XaerosWorldMap_1.27.0_Forge_1.16.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/XaerosWorldMap_1.27.0_Forge_1.16.5.jar",
             "MD5": "892da61350a3311228de15e5bb4eeb47"
           }
         },
@@ -1756,7 +1756,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7681290,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/xercamusic-1.16.5-2.0.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/xercamusic-1.16.5-2.0.2.jar",
             "MD5": "8efb9e0503f1c87bd6cc10de934544f3"
           }
         },
@@ -1766,7 +1766,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 390055,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/xercapaint-1.16.5-2.0.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/xercapaint-1.16.5-2.0.jar",
             "MD5": "9cf0d7f3ce62e587c63be2573d9fce7e"
           }
         },
@@ -1776,7 +1776,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5261,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/xlpackets-1.16.4-1.2.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/xlpackets-1.16.4-1.2.jar",
             "MD5": "ba2a2f2e729bc614afe101a7e8e48a23"
           }
         },
@@ -1786,7 +1786,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 18363,
-            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/xptome-1.16.5-v2.1.5.jar",
+            "url": "http://localhost:81/servers/Denoria-1.16.5/forgemods/required/xptome-1.16.5-v2.1.5.jar",
             "MD5": "ebb57493212db90fa13581a82f712f96"
           }
         }
