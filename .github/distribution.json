@@ -6,11 +6,11 @@
       "id": "Denoria-1.16.5",
       "name": "Denoria 1.16.5",
       "description": "Serwer minecraft na modach",
-      "icon": "https://denoria.pl/tmp/pack.png",
+      "icon": null,
       "version": "1.0.0",
       "address": "mc.denoria.pl",
       "minecraftVersion": "1.16.5",
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -428,6 +428,16 @@
             "size": 57279,
             "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/AutoRegLib-1.6-49.jar",
             "MD5": "16302251afc7a757f00899b270cc0fa2"
+          }
+        },
+        {
+          "id": "de.keksuccino:auudio:1.0.3@jar",
+          "name": "Auudio",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27538,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/auudio_forge_1.0.3-1_MC_1.16.2-1.16.5.jar",
+            "MD5": "54dc2a6f104766d0e09f68978e06c677"
           }
         },
         {
@@ -871,6 +881,16 @@
           }
         },
         {
+          "id": "de.keksuccino:fancymenu:2.12.0@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 903999,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/fancymenu_forge_2.12.0_MC_1.16.2-1.16.5.jar",
+            "MD5": "8ac7f485d489c7ff4aa04b530ec80a36"
+          }
+        },
+        {
           "id": "vectorwing.farmersdelight:farmersdelight:1.16.5-0.6.0@jar",
           "name": "Farmer's Delight",
           "type": "ForgeMod",
@@ -888,6 +908,16 @@
             "size": 108520,
             "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/ferritecore-2.1.0-forge.jar",
             "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
+          }
+        },
+        {
+          "id": "de.keksuccino.fmaudio:fmextension_audio:1.1.1@jar",
+          "name": "FancyMenu Audio Extension",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 80737,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/fm_audio_extension_forge_1.1.1_MC_1.16.2-1.16.5.jar",
+            "MD5": "6d5afe2f9ad54151f944a03671cef0d8"
           }
         },
         {
@@ -1108,6 +1138,16 @@
             "size": 10739,
             "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
             "MD5": "a56ae58cc566f264140c15bb9d1447f2"
+          }
+        },
+        {
+          "id": "de.keksuccino:loadmyresources:1.0.1@jar",
+          "name": "Load My Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35559,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/loadmyresources_1.0.1_MC_1.16.2-1.16.5.jar",
+            "MD5": "4ac7c3e46b160d796a860a6ad9e6c3e5"
           }
         },
         {
@@ -1788,6 +1828,1073 @@
             "size": 18363,
             "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/forgemods/required/xptome-1.16.5-v2.1.5.jar",
             "MD5": "ebb57493212db90fa13581a82f712f96"
+          }
+        },
+        {
+          "id": "animation.properties",
+          "name": "animation.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1545,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/animations/denoria_menu_12345/animation.properties",
+            "MD5": "f8a9db0f36eb4a5d1dc0c6d2d35b3f91",
+            "path": "config/fancymenu/animations/denoria_menu_12345/animation.properties"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1621,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/config.txt",
+            "MD5": "5f0539119aff183f6991a0de17996af7",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 519,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "88ddeaef22ccef83b3aade273cc5e53e",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "denoria_menu_button.txt",
+          "name": "denoria_menu_button.txt",
+          "type": "File",
+          "artifact": {
+            "size": 757,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/customization/.disabled/denoria_menu_button.txt",
+            "MD5": "114588ba3adc8e8776a7c54085bca93f",
+            "path": "config/fancymenu/customization/.disabled/denoria_menu_button.txt"
+          }
+        },
+        {
+          "id": "denoria_menu.txt",
+          "name": "denoria_menu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 10017,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/customization/denoria_menu.txt",
+            "MD5": "01363919548f4c1819889fe567f78ace",
+            "path": "config/fancymenu/customization/denoria_menu.txt"
+          }
+        },
+        {
+          "id": "denoria_menu_esc.txt",
+          "name": "denoria_menu_esc.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2137,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/customization/denoria_menu_esc.txt",
+            "MD5": "5ce2c2015475dfe56cfc8098c71973d8",
+            "path": "config/fancymenu/customization/denoria_menu_esc.txt"
+          }
+        },
+        {
+          "id": "denoria_menu_mods.txt",
+          "name": "denoria_menu_mods.txt",
+          "type": "File",
+          "artifact": {
+            "size": 670,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/customization/denoria_menu_mods.txt",
+            "MD5": "d9c2332866dbf7184a9bfbe1a976f769",
+            "path": "config/fancymenu/customization/denoria_menu_mods.txt"
+          }
+        },
+        {
+          "id": "black_screen.png",
+          "name": "black_screen.png",
+          "type": "File",
+          "artifact": {
+            "size": 22130,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/denoria/black_screen.png",
+            "MD5": "45f45322701ceaa9c256387404bc9d94",
+            "path": "config/fancymenu/denoria/black_screen.png"
+          }
+        },
+        {
+          "id": "denoria_background.ogg",
+          "name": "denoria_background.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 2096716,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/denoria/denoria_background.ogg",
+            "MD5": "cd15ac8f12015fdd4d26818b9ed05d89",
+            "path": "config/fancymenu/denoria/denoria_background.ogg"
+          }
+        },
+        {
+          "id": "denoria_button_play.wav",
+          "name": "denoria_button_play.wav",
+          "type": "File",
+          "artifact": {
+            "size": 544846,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/denoria/denoria_button_play.wav",
+            "MD5": "46bf28b74c86d05ef8cfc99d037a8692",
+            "path": "config/fancymenu/denoria/denoria_button_play.wav"
+          }
+        },
+        {
+          "id": "denoria_loading.ogg",
+          "name": "denoria_loading.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 326051,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/denoria/denoria_loading.ogg",
+            "MD5": "1ec6fd0920799e9ffabfd0ebaf4e307f",
+            "path": "config/fancymenu/denoria/denoria_loading.ogg"
+          }
+        },
+        {
+          "id": "minecraftowe_logo_denoria.png",
+          "name": "minecraftowe_logo_denoria.png",
+          "type": "File",
+          "artifact": {
+            "size": 133660,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/denoria/minecraftowe_logo_denoria.png",
+            "MD5": "e5cc79f66d85889828c9a9715737954d",
+            "path": "config/fancymenu/denoria/minecraftowe_logo_denoria.png"
+          }
+        },
+        {
+          "id": "config.cfg",
+          "name": "config.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 84,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/extensions/fmaudio/config.cfg",
+            "MD5": "9ab341528ec51f92869a1a9d02876c5d",
+            "path": "config/fancymenu/extensions/fmaudio/config.cfg"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 3363,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/extensions/fmaudio/locals/en_us.local",
+            "MD5": "f890c4649986796eecfc1cc2de02ded0",
+            "path": "config/fancymenu/extensions/fmaudio/locals/en_us.local"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 27376,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/locals/de_de.local",
+            "MD5": "f43e602abc1b3081611a3ee39efa0bdd",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 88785,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/locals/en_us.local",
+            "MD5": "4ada2c42eee32699561b550f6623c11f",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 13858,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/locals/pl_pl.local",
+            "MD5": "22c68afab02c97f21832b904a5e4413c",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14283,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/locals/pt_br.local",
+            "MD5": "9a91316e7c6e61a7a1e0874f34f77482",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "zh_cn.local",
+          "name": "zh_cn.local",
+          "type": "File",
+          "artifact": {
+            "size": 52106,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/locals/zh_cn.local",
+            "MD5": "20a74fbf1560def5e5528b78fb30fbfe",
+            "path": "config/fancymenu/locals/zh_cn.local"
+          }
+        },
+        {
+          "id": "menu_identifiers.db",
+          "name": "menu_identifiers.db",
+          "type": "File",
+          "artifact": {
+            "size": 10497,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/menu_identifiers.db",
+            "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
+            "path": "config/fancymenu/menu_identifiers.db"
+          }
+        },
+        {
+          "id": "image_1.png",
+          "name": "image_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3895876,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/slideshows/denoriaslideshow/images/image_1.png",
+            "MD5": "6a1e856eb9901cd900eb02e42eed46b2",
+            "path": "config/fancymenu/slideshows/denoriaslideshow/images/image_1.png"
+          }
+        },
+        {
+          "id": "image_2.png",
+          "name": "image_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 4996160,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/slideshows/denoriaslideshow/images/image_2.png",
+            "MD5": "0925e6f782194989bf1d0bb1faec1b70",
+            "path": "config/fancymenu/slideshows/denoriaslideshow/images/image_2.png"
+          }
+        },
+        {
+          "id": "image_3.png",
+          "name": "image_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 4851445,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/slideshows/denoriaslideshow/images/image_3.png",
+            "MD5": "6a8f8cc315e04bccd262631fb1f72d79",
+            "path": "config/fancymenu/slideshows/denoriaslideshow/images/image_3.png"
+          }
+        },
+        {
+          "id": "image_4.png",
+          "name": "image_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 5718766,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/slideshows/denoriaslideshow/images/image_4.png",
+            "MD5": "4d30424917afb0bf6cf2ce459cfc38cb",
+            "path": "config/fancymenu/slideshows/denoriaslideshow/images/image_4.png"
+          }
+        },
+        {
+          "id": "image_5.png",
+          "name": "image_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 5488826,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/slideshows/denoriaslideshow/images/image_5.png",
+            "MD5": "b4142f7ade603b7ac163479838ff6724",
+            "path": "config/fancymenu/slideshows/denoriaslideshow/images/image_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/slideshows/denoriaslideshow/properties.txt",
+            "MD5": "009a7549cbe625fd53b3b57469744530",
+            "path": "config/fancymenu/slideshows/denoriaslideshow/properties.txt"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/config/fancymenu/user_variables.db",
+            "MD5": "eec0f310caf96daa823c26b23cdc031a",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "1.jpg",
+          "name": "1.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 114739,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/1.jpg",
+            "MD5": "ba70c1da0b6540008f786afd4974d9b4",
+            "path": "resources/denoria_menu_12345/frames_main/1.jpg"
+          }
+        },
+        {
+          "id": "10.jpg",
+          "name": "10.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 152022,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/10.jpg",
+            "MD5": "55c991ea2700f98d0a68b4e08099d549",
+            "path": "resources/denoria_menu_12345/frames_main/10.jpg"
+          }
+        },
+        {
+          "id": "11.jpg",
+          "name": "11.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 151973,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/11.jpg",
+            "MD5": "3bbcdaba749a31c752085aba2ed7b241",
+            "path": "resources/denoria_menu_12345/frames_main/11.jpg"
+          }
+        },
+        {
+          "id": "12.jpg",
+          "name": "12.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 152551,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/12.jpg",
+            "MD5": "08fa1016095cdd8b63e62980b1ffea94",
+            "path": "resources/denoria_menu_12345/frames_main/12.jpg"
+          }
+        },
+        {
+          "id": "13.jpg",
+          "name": "13.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 220781,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/13.jpg",
+            "MD5": "0fb5048e5722208bb88f7e5080feae0f",
+            "path": "resources/denoria_menu_12345/frames_main/13.jpg"
+          }
+        },
+        {
+          "id": "14.jpg",
+          "name": "14.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 222135,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/14.jpg",
+            "MD5": "431609efb9ef7caf8a1c5d03c29061a2",
+            "path": "resources/denoria_menu_12345/frames_main/14.jpg"
+          }
+        },
+        {
+          "id": "15.jpg",
+          "name": "15.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 222303,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/15.jpg",
+            "MD5": "ad917ae4fd63701bce57792f968a34c1",
+            "path": "resources/denoria_menu_12345/frames_main/15.jpg"
+          }
+        },
+        {
+          "id": "16.jpg",
+          "name": "16.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 222330,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/16.jpg",
+            "MD5": "1c27dff130bf5f96f8569e5dd3c67fae",
+            "path": "resources/denoria_menu_12345/frames_main/16.jpg"
+          }
+        },
+        {
+          "id": "17.jpg",
+          "name": "17.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 223081,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/17.jpg",
+            "MD5": "76dfa7cee36547bb79dd380bc7c1bfe6",
+            "path": "resources/denoria_menu_12345/frames_main/17.jpg"
+          }
+        },
+        {
+          "id": "18.jpg",
+          "name": "18.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 222631,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/18.jpg",
+            "MD5": "9e79984c89b420bf60d76e7803e1d6ca",
+            "path": "resources/denoria_menu_12345/frames_main/18.jpg"
+          }
+        },
+        {
+          "id": "19.jpg",
+          "name": "19.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 177506,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/19.jpg",
+            "MD5": "c5d560d2a463571b22d990d8122e8355",
+            "path": "resources/denoria_menu_12345/frames_main/19.jpg"
+          }
+        },
+        {
+          "id": "2.jpg",
+          "name": "2.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 114390,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/2.jpg",
+            "MD5": "12922f209e845da46936efbcb8bc964c",
+            "path": "resources/denoria_menu_12345/frames_main/2.jpg"
+          }
+        },
+        {
+          "id": "20.jpg",
+          "name": "20.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 177975,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/20.jpg",
+            "MD5": "91ff6529f45e4c2081d013af5f7dc4d3",
+            "path": "resources/denoria_menu_12345/frames_main/20.jpg"
+          }
+        },
+        {
+          "id": "21.jpg",
+          "name": "21.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 179701,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/21.jpg",
+            "MD5": "811d76feafc7bd37b4606e734f2eb009",
+            "path": "resources/denoria_menu_12345/frames_main/21.jpg"
+          }
+        },
+        {
+          "id": "22.jpg",
+          "name": "22.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 178640,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/22.jpg",
+            "MD5": "39d9e01268e093c1a90725eaf5e81b35",
+            "path": "resources/denoria_menu_12345/frames_main/22.jpg"
+          }
+        },
+        {
+          "id": "23.jpg",
+          "name": "23.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 178830,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/23.jpg",
+            "MD5": "0e9ce22c73d296e77dd95f3ede753317",
+            "path": "resources/denoria_menu_12345/frames_main/23.jpg"
+          }
+        },
+        {
+          "id": "24.jpg",
+          "name": "24.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 180420,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/24.jpg",
+            "MD5": "5a78cdf2959904adfc604242f2a19514",
+            "path": "resources/denoria_menu_12345/frames_main/24.jpg"
+          }
+        },
+        {
+          "id": "25.jpg",
+          "name": "25.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 133091,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/25.jpg",
+            "MD5": "a8f7140197bb20fab917f92f2e242626",
+            "path": "resources/denoria_menu_12345/frames_main/25.jpg"
+          }
+        },
+        {
+          "id": "26.jpg",
+          "name": "26.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 132807,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/26.jpg",
+            "MD5": "7c0f717ac1af2767f780eb66cb33cf7c",
+            "path": "resources/denoria_menu_12345/frames_main/26.jpg"
+          }
+        },
+        {
+          "id": "27.jpg",
+          "name": "27.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 133552,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/27.jpg",
+            "MD5": "f8d2a3da746df397c1cdf4560dbc6148",
+            "path": "resources/denoria_menu_12345/frames_main/27.jpg"
+          }
+        },
+        {
+          "id": "28.jpg",
+          "name": "28.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 133144,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/28.jpg",
+            "MD5": "d23b7266816864722ee312af7cf3f15d",
+            "path": "resources/denoria_menu_12345/frames_main/28.jpg"
+          }
+        },
+        {
+          "id": "29.jpg",
+          "name": "29.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 133151,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/29.jpg",
+            "MD5": "ffcfd838b4b4dbd22374743d7eeb60ae",
+            "path": "resources/denoria_menu_12345/frames_main/29.jpg"
+          }
+        },
+        {
+          "id": "3.jpg",
+          "name": "3.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 114512,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/3.jpg",
+            "MD5": "facdccd0df04b54001220eca63cc1dbe",
+            "path": "resources/denoria_menu_12345/frames_main/3.jpg"
+          }
+        },
+        {
+          "id": "30.jpg",
+          "name": "30.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 133143,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/30.jpg",
+            "MD5": "281e244e516efe7531b2e9bee8dbf80b",
+            "path": "resources/denoria_menu_12345/frames_main/30.jpg"
+          }
+        },
+        {
+          "id": "31.jpg",
+          "name": "31.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 104636,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/31.jpg",
+            "MD5": "6e65a1fccfd7c47dea86406b3d93ec7d",
+            "path": "resources/denoria_menu_12345/frames_main/31.jpg"
+          }
+        },
+        {
+          "id": "32.jpg",
+          "name": "32.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 104178,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/32.jpg",
+            "MD5": "19c9b9e8f35d3927b0e0d9e97ddbb0bd",
+            "path": "resources/denoria_menu_12345/frames_main/32.jpg"
+          }
+        },
+        {
+          "id": "33.jpg",
+          "name": "33.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 104121,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/33.jpg",
+            "MD5": "ef53d710070140f7d38bd4136c66c206",
+            "path": "resources/denoria_menu_12345/frames_main/33.jpg"
+          }
+        },
+        {
+          "id": "34.jpg",
+          "name": "34.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 103857,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/34.jpg",
+            "MD5": "2a2b0737d0c42e7a1b972137fb6c3447",
+            "path": "resources/denoria_menu_12345/frames_main/34.jpg"
+          }
+        },
+        {
+          "id": "35.jpg",
+          "name": "35.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 104053,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/35.jpg",
+            "MD5": "b8177f34cd89521d44781fef09e9d90d",
+            "path": "resources/denoria_menu_12345/frames_main/35.jpg"
+          }
+        },
+        {
+          "id": "36.jpg",
+          "name": "36.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 103744,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/36.jpg",
+            "MD5": "8fb162980845e3bd65c77e64a40a9e94",
+            "path": "resources/denoria_menu_12345/frames_main/36.jpg"
+          }
+        },
+        {
+          "id": "37.jpg",
+          "name": "37.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 82206,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/37.jpg",
+            "MD5": "612fc0d5183c440fcd606d479d721862",
+            "path": "resources/denoria_menu_12345/frames_main/37.jpg"
+          }
+        },
+        {
+          "id": "38.jpg",
+          "name": "38.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 82261,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/38.jpg",
+            "MD5": "851a93132e715e87949ca101631a0abf",
+            "path": "resources/denoria_menu_12345/frames_main/38.jpg"
+          }
+        },
+        {
+          "id": "39.jpg",
+          "name": "39.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 82272,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/39.jpg",
+            "MD5": "2cdcef8699be1f82612a0d0c722c62c7",
+            "path": "resources/denoria_menu_12345/frames_main/39.jpg"
+          }
+        },
+        {
+          "id": "4.jpg",
+          "name": "4.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 114268,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/4.jpg",
+            "MD5": "67a2aa860763be8c876cc6f9e5cebcd9",
+            "path": "resources/denoria_menu_12345/frames_main/4.jpg"
+          }
+        },
+        {
+          "id": "40.jpg",
+          "name": "40.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 82412,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/40.jpg",
+            "MD5": "8c011a9d306c89eb0809fbb2b4f1a6ce",
+            "path": "resources/denoria_menu_12345/frames_main/40.jpg"
+          }
+        },
+        {
+          "id": "41.jpg",
+          "name": "41.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 82602,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/41.jpg",
+            "MD5": "a69b2ef3cba6f37d13f8117fa9f2fc0a",
+            "path": "resources/denoria_menu_12345/frames_main/41.jpg"
+          }
+        },
+        {
+          "id": "42.jpg",
+          "name": "42.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 82594,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/42.jpg",
+            "MD5": "56c14c146c25f47f3827ee20a85f2076",
+            "path": "resources/denoria_menu_12345/frames_main/42.jpg"
+          }
+        },
+        {
+          "id": "43.jpg",
+          "name": "43.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 69727,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/43.jpg",
+            "MD5": "2cc57bad477608e94e99caa6687f20b6",
+            "path": "resources/denoria_menu_12345/frames_main/43.jpg"
+          }
+        },
+        {
+          "id": "44.jpg",
+          "name": "44.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 68628,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/44.jpg",
+            "MD5": "4e46425b4b91bcb261259e2227e19efe",
+            "path": "resources/denoria_menu_12345/frames_main/44.jpg"
+          }
+        },
+        {
+          "id": "45.jpg",
+          "name": "45.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 69301,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/45.jpg",
+            "MD5": "9876ba366f955a2f56911285a872df6b",
+            "path": "resources/denoria_menu_12345/frames_main/45.jpg"
+          }
+        },
+        {
+          "id": "46.jpg",
+          "name": "46.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 69473,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/46.jpg",
+            "MD5": "13969bed685cbe9794e3c7fb533fc701",
+            "path": "resources/denoria_menu_12345/frames_main/46.jpg"
+          }
+        },
+        {
+          "id": "47.jpg",
+          "name": "47.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 69786,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/47.jpg",
+            "MD5": "7ec668583cac9b0cca93ab6fdccd4dec",
+            "path": "resources/denoria_menu_12345/frames_main/47.jpg"
+          }
+        },
+        {
+          "id": "48.jpg",
+          "name": "48.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 69904,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/48.jpg",
+            "MD5": "a9dea84d20bc1d031b493401c80e10c0",
+            "path": "resources/denoria_menu_12345/frames_main/48.jpg"
+          }
+        },
+        {
+          "id": "49.jpg",
+          "name": "49.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 61189,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/49.jpg",
+            "MD5": "32e6f2ad36009465c9a5103381a0f097",
+            "path": "resources/denoria_menu_12345/frames_main/49.jpg"
+          }
+        },
+        {
+          "id": "5.jpg",
+          "name": "5.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 114387,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/5.jpg",
+            "MD5": "bb14bc1a978aaa70531105c1149bf05d",
+            "path": "resources/denoria_menu_12345/frames_main/5.jpg"
+          }
+        },
+        {
+          "id": "50.jpg",
+          "name": "50.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 61551,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/50.jpg",
+            "MD5": "02322575c120193a5dda369116f7df94",
+            "path": "resources/denoria_menu_12345/frames_main/50.jpg"
+          }
+        },
+        {
+          "id": "51.jpg",
+          "name": "51.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 61533,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/51.jpg",
+            "MD5": "a17455a575a6618d15ce67047aa187de",
+            "path": "resources/denoria_menu_12345/frames_main/51.jpg"
+          }
+        },
+        {
+          "id": "52.jpg",
+          "name": "52.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 61485,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/52.jpg",
+            "MD5": "f4180296964d2b80cd73a79f83c358ff",
+            "path": "resources/denoria_menu_12345/frames_main/52.jpg"
+          }
+        },
+        {
+          "id": "53.jpg",
+          "name": "53.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 61617,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/53.jpg",
+            "MD5": "2031120bb1fe757b5574f72856cfa26c",
+            "path": "resources/denoria_menu_12345/frames_main/53.jpg"
+          }
+        },
+        {
+          "id": "54.jpg",
+          "name": "54.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 61644,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/54.jpg",
+            "MD5": "4dd9c2c67c948730ca128acf00486445",
+            "path": "resources/denoria_menu_12345/frames_main/54.jpg"
+          }
+        },
+        {
+          "id": "55.jpg",
+          "name": "55.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 55614,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/55.jpg",
+            "MD5": "970cc3456a813b29ad2cd79f25e9d18c",
+            "path": "resources/denoria_menu_12345/frames_main/55.jpg"
+          }
+        },
+        {
+          "id": "56.jpg",
+          "name": "56.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 55702,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/56.jpg",
+            "MD5": "3460f5f4b94731c8cda6df85c528e86a",
+            "path": "resources/denoria_menu_12345/frames_main/56.jpg"
+          }
+        },
+        {
+          "id": "57.jpg",
+          "name": "57.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 55549,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/57.jpg",
+            "MD5": "0346e7da64adc74d3c086dac241575e9",
+            "path": "resources/denoria_menu_12345/frames_main/57.jpg"
+          }
+        },
+        {
+          "id": "58.jpg",
+          "name": "58.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 55546,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/58.jpg",
+            "MD5": "dd360cd6fd06a19ba642b0ca428267b0",
+            "path": "resources/denoria_menu_12345/frames_main/58.jpg"
+          }
+        },
+        {
+          "id": "59.jpg",
+          "name": "59.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 55458,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/59.jpg",
+            "MD5": "437387fd9b2055d483d4d20fd1f3cb54",
+            "path": "resources/denoria_menu_12345/frames_main/59.jpg"
+          }
+        },
+        {
+          "id": "6.jpg",
+          "name": "6.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 114555,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/6.jpg",
+            "MD5": "1034a77b0ceb1da375e4eac9ca797023",
+            "path": "resources/denoria_menu_12345/frames_main/6.jpg"
+          }
+        },
+        {
+          "id": "60.jpg",
+          "name": "60.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 55470,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/60.jpg",
+            "MD5": "e9e018733825d9ce620a5f8cbaafdedc",
+            "path": "resources/denoria_menu_12345/frames_main/60.jpg"
+          }
+        },
+        {
+          "id": "61.jpg",
+          "name": "61.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 51252,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/61.jpg",
+            "MD5": "c2034a3ac8433a848734f7cc9894e0a0",
+            "path": "resources/denoria_menu_12345/frames_main/61.jpg"
+          }
+        },
+        {
+          "id": "62.jpg",
+          "name": "62.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 51410,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/62.jpg",
+            "MD5": "d588375ca8e3fdd33a7c4257b0efb038",
+            "path": "resources/denoria_menu_12345/frames_main/62.jpg"
+          }
+        },
+        {
+          "id": "63.jpg",
+          "name": "63.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 51394,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/63.jpg",
+            "MD5": "661f024bfc15d0dbae61999f9d053d34",
+            "path": "resources/denoria_menu_12345/frames_main/63.jpg"
+          }
+        },
+        {
+          "id": "64.jpg",
+          "name": "64.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 51459,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/64.jpg",
+            "MD5": "0ef7fd22339a04cccc529b9d953b45aa",
+            "path": "resources/denoria_menu_12345/frames_main/64.jpg"
+          }
+        },
+        {
+          "id": "65.jpg",
+          "name": "65.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 51564,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/65.jpg",
+            "MD5": "2b02a6b6c237d6059ac2678e84555556",
+            "path": "resources/denoria_menu_12345/frames_main/65.jpg"
+          }
+        },
+        {
+          "id": "66.jpg",
+          "name": "66.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 51423,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/66.jpg",
+            "MD5": "bfa8dfc80874cede39d0168ce8849ccf",
+            "path": "resources/denoria_menu_12345/frames_main/66.jpg"
+          }
+        },
+        {
+          "id": "67.jpg",
+          "name": "67.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 48784,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/67.jpg",
+            "MD5": "070b35b81a461bbaecb5d9270767bd08",
+            "path": "resources/denoria_menu_12345/frames_main/67.jpg"
+          }
+        },
+        {
+          "id": "68.jpg",
+          "name": "68.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 48888,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/68.jpg",
+            "MD5": "c9b8016f6fc21fb4a2f1e390ac1e652e",
+            "path": "resources/denoria_menu_12345/frames_main/68.jpg"
+          }
+        },
+        {
+          "id": "69.jpg",
+          "name": "69.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 48896,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/69.jpg",
+            "MD5": "7d8039f13a5747c4eac073b925360d08",
+            "path": "resources/denoria_menu_12345/frames_main/69.jpg"
+          }
+        },
+        {
+          "id": "7.jpg",
+          "name": "7.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 150530,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/7.jpg",
+            "MD5": "0ea7c3f4c9ef1d2d685baf452444efe7",
+            "path": "resources/denoria_menu_12345/frames_main/7.jpg"
+          }
+        },
+        {
+          "id": "70.jpg",
+          "name": "70.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 48994,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/70.jpg",
+            "MD5": "b9a4b89643a6b5802bc88d22acf75e50",
+            "path": "resources/denoria_menu_12345/frames_main/70.jpg"
+          }
+        },
+        {
+          "id": "8.jpg",
+          "name": "8.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 150909,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/8.jpg",
+            "MD5": "2fc271d25227d05659893fe1cf73575e",
+            "path": "resources/denoria_menu_12345/frames_main/8.jpg"
+          }
+        },
+        {
+          "id": "9.jpg",
+          "name": "9.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 151706,
+            "url": "http://denoria.pl/tmp/servers/Denoria-1.16.5/files/resources/denoria_menu_12345/frames_main/9.jpg",
+            "MD5": "5183b7f7033b601252a30168154803d5",
+            "path": "resources/denoria_menu_12345/frames_main/9.jpg"
           }
         }
       ]
