@@ -28,14 +28,19 @@
                 <input id="loginPassword" class="loginField" type="password" placeholder="PASSWORD"/>
             </div>
             <div id="loginOptions">
-                <span class="loginSpanDim">
-                    <a href="https://minecraft.net/password/forgot/">Zapomniałeś hasła?</a>
-                </span>
+                <label id="checkmarkContainer">
+                    <input id="loginOfflineOption" type="checkbox">
+                    <span id="loginRememberText" class="loginSpanDim">Bez premium</span>
+                    <span class="loginCheckmark"></span>
+                </label>
                 <label id="checkmarkContainer">
                     <input id="loginRememberOption" type="checkbox" checked>
                     <span id="loginRememberText" class="loginSpanDim">Pamiętasz mnie?</span>
                     <span class="loginCheckmark"></span>
                 </label>
+                <span class="loginSpanDim">
+                    <a href="https://minecraft.net/password/forgot/">Zapomniałeś hasła?</a>
+                </span>
             </div>
             <button id="loginButton" disabled>
                 <div id="loginButtonContent">

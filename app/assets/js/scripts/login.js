@@ -2,21 +2,23 @@
  * Script for login.ejs
  */
 // Validation Regexes.
-const validUsername         = /^[a-zA-Z0-9_]{1,16}$/
-const basicEmail            = /^\S+@\S+\.\S+$/
+const validUsername = /^[a-zA-Z0-9_]{1,16}$/
+const basicEmail = /^\S+@\S+\.\S+$/
 //const validEmail          = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
 
 // Login Elements
-const loginCancelContainer  = document.getElementById('loginCancelContainer')
-const loginCancelButton     = document.getElementById('loginCancelButton')
-const loginEmailError       = document.getElementById('loginEmailError')
-const loginUsername         = document.getElementById('loginUsername')
-const loginPasswordError    = document.getElementById('loginPasswordError')
-const loginPassword         = document.getElementById('loginPassword')
-const checkmarkContainer    = document.getElementById('checkmarkContainer')
-const loginRememberOption   = document.getElementById('loginRememberOption')
-const loginButton           = document.getElementById('loginButton')
-const loginForm             = document.getElementById('loginForm')
+const loginCancelContainer = document.getElementById('loginCancelContainer')
+const loginCancelButton = document.getElementById('loginCancelButton')
+const loginEmailError = document.getElementById('loginEmailError')
+const loginUsername = document.getElementById('loginUsername')
+const loginDiv = document.querySelectorAll('.loginFieldContainer')[1]
+const loginPasswordError = document.getElementById('loginPasswordError')
+const loginPassword = document.getElementById('loginPassword')
+const checkmarkContainer = document.getElementById('checkmarkContainer')
+const loginRememberOption = document.getElementById('loginRememberOption')
+const loginOfflineOption = document.getElementById('loginOfflineOption')
+const loginButton = document.getElementById('loginButton')
+const loginForm = document.getElementById('loginForm')
 
 // Control variables.
 let lu = false, lp = false
@@ -26,43 +28,62 @@ const loggerLogin = LoggerUtil1('%c[Login]', 'color: #000668; font-weight: bold'
 
 /**
  * Show a login error.
- * 
+ *
  * @param {HTMLElement} element The element on which to display the error.
  * @param {string} value The error text.
  */
-function showError(element, value){
+function showError(element, value) {
     element.innerHTML = value
     element.style.opacity = 1
 }
 
 /**
  * Shake a login error to add emphasis.
- * 
+ *
  * @param {HTMLElement} element The element to shake.
  */
-function shakeError(element){
-    if(element.style.opacity == 1){
+function shakeError(element) {
+    if (element.style.opacity == 1) {
         element.classList.remove('shake')
         void element.offsetWidth
         element.classList.add('shake')
     }
 }
 
-/**
- * Validate that an email field is neither empty nor invalid.
- * 
- * @param {string} value The email value.
- */
-function validateEmail(value){
-    if(value){
-        if(!basicEmail.test(value) && !validUsername.test(value)){
+function validateName(value) {
+    if (value) {
+        if (!validUsername.test(value)) {
             showError(loginEmailError, Lang.queryJS('login.error.invalidValue'))
             loginDisabled(true)
             lu = false
         } else {
             loginEmailError.style.opacity = 0
             lu = true
-            if(lp){
+            loginDisabled(false)
+
+        }
+    } else {
+        lu = false
+        showError(loginEmailError, Lang.queryJS('login.error.requiredValue'))
+        loginDisabled(true)
+    }
+}
+
+/**
+ * Validate that an email field is neither empty nor invalid.
+ *
+ * @param {string} value The email value.
+ */
+function validateEmail(value) {
+    if (value) {
+        if (!basicEmail.test(value) && !validUsername.test(value)) {
+            showError(loginEmailError, Lang.queryJS('login.error.invalidValue'))
+            loginDisabled(true)
+            lu = false
+        } else {
+            loginEmailError.style.opacity = 0
+            lu = true
+            if (lp) {
                 loginDisabled(false)
             }
         }
@@ -75,14 +96,14 @@ function validateEmail(value){
 
 /**
  * Validate that the password field is not empty.
- * 
+ *
  * @param {string} value The password value.
  */
-function validatePassword(value){
-    if(value){
+function validatePassword(value) {
+    if (value) {
         loginPasswordError.style.opacity = 0
         lp = true
-        if(lu){
+        if (lu) {
             loginDisabled(false)
         }
     } else {
@@ -94,40 +115,49 @@ function validatePassword(value){
 
 // Emphasize errors with shake when focus is lost.
 loginUsername.addEventListener('focusout', (e) => {
-    validateEmail(e.target.value)
+    const validateMethod = loginOfflineOption.checked ? validateName : validateEmail
+    validateMethod(e.target.value)
     shakeError(loginEmailError)
 })
 loginPassword.addEventListener('focusout', (e) => {
+    if (loginOfflineOption.checked) return
     validatePassword(e.target.value)
     shakeError(loginPasswordError)
 })
 
 // Validate input for each field.
 loginUsername.addEventListener('input', (e) => {
-    validateEmail(e.target.value)
+    const validateMethod = loginOfflineOption.checked ? validateName : validateEmail
+    validateMethod(e.target.value)
 })
 loginPassword.addEventListener('input', (e) => {
+    if (loginOfflineOption.checked) return
     validatePassword(e.target.value)
 })
 
 /**
  * Enable or disable the login button.
- * 
+ *
  * @param {boolean} v True to enable, false to disable.
  */
-function loginDisabled(v){
-    if(loginButton.disabled !== v){
+function loginDisabled(v) {
+    if (loginButton.disabled !== v) {
         loginButton.disabled = v
     }
 }
 
+loginOfflineOption.addEventListener('change', (e) => {
+    validateName(loginUsername.value)
+    loginDiv.style.opacity = e.target.checked ? 0 : 1
+})
+
 /**
  * Enable or disable loading elements.
- * 
+ *
  * @param {boolean} v True to enable, false to disable.
  */
-function loginLoading(v){
-    if(v){
+function loginLoading(v) {
+    if (v) {
         loginButton.setAttribute('loading', v)
         loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.login'), Lang.queryJS('login.loggingIn'))
     } else {
@@ -138,15 +168,15 @@ function loginLoading(v){
 
 /**
  * Enable or disable login form.
- * 
+ *
  * @param {boolean} v True to enable, false to disable.
  */
-function formDisabled(v){
+function formDisabled(v) {
     loginDisabled(v)
     loginCancelButton.disabled = v
     loginUsername.disabled = v
     loginPassword.disabled = v
-    if(v){
+    if (v) {
         checkmarkContainer.setAttribute('disabled', v)
     } else {
         checkmarkContainer.removeAttribute('disabled')
@@ -158,8 +188,8 @@ let loginViewOnSuccess = VIEWS.landing
 let loginViewOnCancel = VIEWS.settings
 let loginViewCancelHandler
 
-function loginCancelEnabled(val){
-    if(val){
+function loginCancelEnabled(val) {
+    if (val) {
         $(loginCancelContainer).show()
     } else {
         $(loginCancelContainer).hide()
@@ -171,7 +201,7 @@ loginCancelButton.onclick = (e) => {
         loginUsername.value = ''
         loginPassword.value = ''
         loginCancelEnabled(false)
-        if(loginViewCancelHandler != null){
+        if (loginViewCancelHandler != null) {
             loginViewCancelHandler()
             loginViewCancelHandler = null
         }
@@ -179,7 +209,9 @@ loginCancelButton.onclick = (e) => {
 }
 
 // Disable default form behavior.
-loginForm.onsubmit = () => { return false }
+loginForm.onsubmit = () => {
+    return false
+}
 
 // Bind login button behavior.
 loginButton.addEventListener('click', () => {
@@ -188,8 +220,8 @@ loginButton.addEventListener('click', () => {
 
     // Show loading stuff.
     loginLoading(true)
-
-    AuthManager.addMojangAccount(loginUsername.value, loginPassword.value).then((value) => {
+    let authMethod = loginOfflineOption.checked ? AuthManager.addOfflineAccount : AuthManager.addMojangAccount
+    authMethod(loginUsername.value, loginPassword.value).then((value) => {
         updateSelectedAccount(value)
         loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.loggingIn'), Lang.queryJS('login.success'))
         $('.circle-loader').toggleClass('load-complete')
@@ -197,7 +229,7 @@ loginButton.addEventListener('click', () => {
         setTimeout(() => {
             switchView(VIEWS.login, loginViewOnSuccess, 500, 500, () => {
                 // Temporary workaround
-                if(loginViewOnSuccess === VIEWS.settings){
+                if (loginViewOnSuccess === VIEWS.settings) {
                     prepareSettings()
                 }
                 loginViewOnSuccess = VIEWS.landing // Reset this for good measure.
@@ -216,7 +248,7 @@ loginButton.addEventListener('click', () => {
         loginLoading(false)
 
         let actualDisplayableError
-        if(isDisplayableError(displayableError)) {
+        if (isDisplayableError(displayableError)) {
             msftLoginLogger.error('Error while logging in.', displayableError)
             actualDisplayableError = displayableError
         } else {
